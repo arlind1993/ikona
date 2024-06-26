@@ -1,153 +1,12 @@
+<?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Diamant - Hotel & Resort Booking  Template</title>
-        <!--=============== css  ===============-->	
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
-    </head>
+    <?php echo generateHead("Diamant - Hotel & Resort Booking  Template")?>
     <body>
-        <!-- lodaer  -->
-        <div class="loader-wrap">
-            <div class="loader-item">
-                <div class="cd-loader-layer" data-frame="25">
-                    <div class="loader-layer"></div>
-                </div>
-                <span class="loader"><i class="fa-thin fa-gem"></i></span>
-            </div>
-        </div>
-        <!-- loader end  -->
+        <?php require_once "loader.php"?>
         <!--  main   -->
         <div id="main">
-            <!--  header  -->
-            <header class="main-header">
-                <div class="container">
-                    <!--  header-top -->
-                    <div class="header-top  fl-wrap">
-                        <div class="header-top_contacts"><a href="#"><span>Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
-                        <div class="header-social">
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="booking-reviews">
-                            <div class="br-counter">
-                                <div class="ribbon"></div>
-                                <span>4.9</span>
-                            </div>
-                            <a href="#" target="_blank" class="br_link">
-                                <div class="star-rating" data-starrating="5"> </div>
-                                <p>Our ratings on Booking.com</p>
-                            </a>
-                        </div>
-                        <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>
-                    </div>
-                    <!--  header-top end  -->
-                    <div class="nav-holder-wrap init-fix-header  fl-wrap">
-                        <a href="index.html" class="logo-holder"><img src="images/logo2.png" alt=""></a>
-                        <!--  navigation -->
-                        <div class="nav-holder main-menu">
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="#">Home <i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="index.html">Style 1</a></li>
-                                            <li><a href="index2.html">Style 2</a></li>
-                                            <li><a href="index3.html">Style 3</a></li>
-                                            <li><a href="onepage.html">One Page</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li>
-                                        <a href="#" class="act-link">Rooms<i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="rooms.html">Rooms 1</a></li>
-                                            <li><a href="rooms2.html">Rooms 2</a></li>
-                                            <li><a href="rooms3.html">Rooms 3</a></li>
-                                            <li><a href="rooms4.html">Rooms 4</a></li>
-                                            <li><a href="room-single.html">Room single</a></li>
-                                            <li><a href="room-single2.html">Room single 2</a></li>
-                                            <li><a href="room-single3.html">Room single 3</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="restaurant.html">Restaurant</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">News</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- navigation  end -->  		
-                        <div class="serach-header-btn_wrap">							
-                            <a href="rooms.html" class="serach-header-btn"><i class="fa-light fa-magnifying-glass"></i> <span>Serach a Room</span></a>
-                        </div>
-                        <div class="show-cart sc_btn   htact"><i class="fa-light fa-basket-shopping-simple"></i><span class="show-cart_count">2</span><span class="header-tooltip">Your Wishlist</span></div>
-                        <div class="show-share-btn showshare htact"><i class="fa-light fa-share-nodes"></i><span class="header-tooltip">Share</span></div>
-                        <!-- nav-button-wrap-->
-                        <div class="nav-button-wrap">
-                            <div class="nav-button">
-                                <span></span><span></span><span></span>
-                            </div>
-                        </div>
-                        <!-- nav-button-wrap end-->					
-                        <!-- share-wrapper -->
-                        <div class="share-wrapper isShare">
-                            <div class="share-container fl-wrap"></div>
-                        </div>
-                        <!-- share-wrapper-end -->					
-                        <!--wish-list-wrap-->
-                        <div class="wish-list-wrap novis_cart">
-                            <div class="wish-list-close close_cart-init clwl_btn"><i class="fa-regular fa-xmark"></i></div>
-                            <div class="wish-list-title">Your Wishlist </div>
-                            <div class="wish-list-container">
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Garden Family Room</a></h4>
-                                        <div class="wish-list-price">$129/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Premium Panorama Room</a></h4>
-                                        <div class="wish-list-price"> $230/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                            </div>
-                            <div class="wish-list-wrap-btns">
-                                <a href="#" class="wl_btn">Clear wishlist</a>
-                            </div>
-                        </div>
-                        <!--wish-list-wrap-->
-                    </div>
-                </div>
-            </header>
-            <div class="header-overlay close_cart-init"></div>
-            <!--  header end  -->
+            <?php require_once "header.php"?>
             <!--  section  -->
             <div class="content-section parallax-section hero-section hidden-section" data-scrollax-parent="true">
                 <div class="bg par-elem " data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
@@ -252,7 +111,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html">Garden Family Room</a>  </h3>
+                                                    <h3><a href="room-single.php">Garden Family Room</a>  </h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -264,7 +123,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$129/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->
@@ -276,7 +135,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html">Premium Panorama Room</a></h3>
+                                                    <h3><a href="room-single.php">Premium Panorama Room</a></h3>
                                                     <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -288,7 +147,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$230/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->
@@ -300,7 +159,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html">Beach Villa Room</a>  </h3>
+                                                    <h3><a href="room-single.php">Beach Villa Room</a>  </h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -312,7 +171,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$321/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->
@@ -324,7 +183,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html">Comfort Room </a></h3>
+                                                    <h3><a href="room-single.php">Comfort Room </a></h3>
                                                     <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -336,7 +195,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$84/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->					
@@ -348,7 +207,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html"> Presidential Suite</a>  </h3>
+                                                    <h3><a href="room-single.php"> Presidential Suite</a>  </h3>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -360,7 +219,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$543/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->
@@ -372,7 +231,7 @@
                                                     <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
                                                 </div>
                                                 <div class="grid-item-details">
-                                                    <h3><a href="room-single.html">Superior  Panorama Room</a></h3>
+                                                    <h3><a href="room-single.php">Superior  Panorama Room</a></h3>
                                                     <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.</p>
                                                     <div class="room-card-details">
                                                         <ul>
@@ -384,7 +243,7 @@
                                                     <div class="grid-item_price">
                                                         <span>$1030/Night</span>
                                                     </div>
-                                                    <a href="room-single.html" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                                    <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                                 </div>
                                             </div>
                                             <!-- gallery-item end-->										
@@ -427,7 +286,7 @@
                                         <div class="footer-widget-title">About us</div>
                                         <div class="footer-widget-content">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eaque ipsa quae ab illo inventore veritatis et quasi architecto. Consectetur adipiscing elit. </p>
-                                            <a href="about.html" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
+                                            <a href="about.php" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
                                         </div>
                                     </div>
                                 </div>
@@ -444,7 +303,7 @@
                                                     <li><span>Find us : </span><a href="#">USA 27TH Brooklyn NY</a></li>
                                                 </ul>
                                             </div>
-                                            <a href="contacts.html" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
+                                            <a href="contacts.php" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
                                         </div>
                                     </div>
                                 </div>
@@ -502,7 +361,7 @@
                 </div>
                 <div class="footer-bottom">
                     <div class="container">
-                        <a href="index.html" class="footer-logo"><img src="images/logo.png" alt=""></a>
+                        <a href="index.php" class="footer-logo"><img src="images/logo.png" alt=""></a>
                         <div class="copyright">&#169; Diamant 2024 . All rights reserved. </div>
                         <div class="to-top"><span>Back To Top </span><i class="fal fa-angle-double-up"></i></div>
                     </div>

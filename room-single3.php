@@ -1,156 +1,22 @@
+<?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Diamant - Hotel & Resort Booking  Template</title>
-        <!--=============== css  ===============-->	
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
-    </head>
+    <?php echo generateHead("Diamant - Hotel & Resort Booking  Template")?>
     <body>
-        <!-- lodaer  -->
-        <div class="loader-wrap">
-            <div class="loader-item">
-                <div class="cd-loader-layer" data-frame="25">
-                    <div class="loader-layer"></div>
-                </div>
-                <span class="loader"><i class="fa-thin fa-gem"></i></span>
-            </div>
-        </div>
-        <!-- loader end  -->
+        <?php require_once "loader.php"?>
         <!--  main   -->
         <div id="main">
-            <!--  header  -->
-            <header class="main-header">
-                <div class="container">
-                    <!--  header-top -->
-                    <div class="header-top  fl-wrap">
-                        <div class="header-top_contacts"><a href="#"><span>Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
-                        <div class="header-social">
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="booking-reviews">
-                            <div class="br-counter">
-                                <div class="ribbon"></div>
-                                <span>4.9</span>
-                            </div>
-                            <a href="#" target="_blank" class="br_link">
-                                <div class="star-rating" data-starrating="5"> </div>
-                                <p>Our ratings on Booking.com</p>
-                            </a>
-                        </div>
-                        <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>
-                    </div>
-                    <!--  header-top end  -->
-                    <div class="nav-holder-wrap init-fix-header  fl-wrap">
-                        <a href="index.html" class="logo-holder"><img src="images/logo2.png" alt=""></a>
-                        <!--  navigation -->
-                        <div class="nav-holder main-menu">
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="#">Home <i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="index.html">Style 1</a></li>
-                                            <li><a href="index2.html">Style 2</a></li>
-                                            <li><a href="index3.html">Style 3</a></li>
-                                            <li><a href="onepage.html">One Page</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li>
-                                        <a href="#" class="act-link">Rooms<i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="rooms.html">Rooms 1</a></li>
-                                            <li><a href="rooms2.html">Rooms 2</a></li>
-                                            <li><a href="rooms3.html">Rooms 3</a></li>
-                                            <li><a href="rooms4.html">Rooms 4</a></li>
-                                            <li><a href="room-single.html">Room single</a></li>
-                                            <li><a href="room-single2.html">Room single 2</a></li>
-                                            <li><a href="room-single3.html">Room single 3</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="restaurant.html">Restaurant</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">News</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- navigation  end -->  		
-                        <div class="serach-header-btn_wrap">							
-                            <a href="rooms.html" class="serach-header-btn"><i class="fa-light fa-magnifying-glass"></i> <span>Serach a Room</span></a>
-                        </div>
-                        <div class="show-cart sc_btn   htact"><i class="fa-light fa-basket-shopping-simple"></i><span class="show-cart_count">2</span><span class="header-tooltip">Your Wishlist</span></div>
-                        <div class="show-share-btn showshare htact"><i class="fa-light fa-share-nodes"></i><span class="header-tooltip">Share</span></div>
-                        <!-- nav-button-wrap-->
-                        <div class="nav-button-wrap">
-                            <div class="nav-button">
-                                <span></span><span></span><span></span>
-                            </div>
-                        </div>
-                        <!-- nav-button-wrap end-->					
-                        <!-- share-wrapper -->
-                        <div class="share-wrapper isShare">
-                            <div class="share-container fl-wrap"></div>
-                        </div>
-                        <!-- share-wrapper-end -->					
-                        <!--wish-list-wrap-->
-                        <div class="wish-list-wrap novis_cart">
-                            <div class="wish-list-close close_cart-init clwl_btn"><i class="fa-regular fa-xmark"></i></div>
-                            <div class="wish-list-title">Your Wishlist </div>
-                            <div class="wish-list-container">
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Garden Family Room</a></h4>
-                                        <div class="wish-list-price">$129/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Premium Panorama Room</a></h4>
-                                        <div class="wish-list-price"> $230/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                            </div>
-                            <div class="wish-list-wrap-btns">
-                                <a href="#" class="wl_btn">Clear wishlist</a>
-                            </div>
-                        </div>
-                        <!--wish-list-wrap-->
-                    </div>
-                </div>
-            </header>
-            <div class="header-overlay close_cart-init"></div>
-            <!--  header end  -->
+            <?php require_once "header.php"?>
             <!--  section  -->
-            <div class="content-section parallax-section hero-section hidden-section" data-scrollax-parent="true">
-                <div class="bg par-elem " data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+            <div class="content-section parallax-section hero-section hidden-section">
+                <div class="media-container video-holder-wrap">
+                    <div class="video-container">
+                        <video playsinline autoplay  loop muted  class="bgvid">
+                            <source src="video/1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="section-title">
@@ -180,58 +46,9 @@
                 </div>
                 <!--breadcrumbs-wrap end  -->
                 <!-- section   -->
-                <div class="content-section notp">
+                <div class="content-section">
                     <div class="section-dec"></div>
                     <div class="content-dec2 fs-wrapper"></div>
-                    <!-- fw-carousel-wrap -->
-                    <div class="single-carousle-container">
-                        <div class="single-carousel-wrap ">
-                            <!-- fw-carousel  -->
-                            <div class="single-carousel   fl-wrap    lightgallery" data-mousecontrol="0">
-                                <div class="swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <!-- swiper-slide-->
-                                        <div class="swiper-slide hov_zoom">
-                                            <img src="images/room/1.jpg" alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                        </div>
-                                        <!-- swiper-slide end-->
-                                        <!-- swiper-slide-->
-                                        <div class="swiper-slide  hov_zoom">
-                                            <img src="images/room/1.jpg" alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                        </div>
-                                        <!-- swiper-slide end-->
-                                        <!-- swiper-slide-->
-                                        <div class="swiper-slide  hov_zoom">
-                                            <img src="images/room/1.jpg" alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                        </div>
-                                        <!-- swiper-slide end-->
-                                        <!-- swiper-slide-->
-                                        <div class="swiper-slide  hov_zoom">
-                                            <img src="images/room/1.jpg" alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                        </div>
-                                        <!-- swiper-slide end-->
-                                        <!-- swiper-slide-->
-                                        <div class="swiper-slide  hov_zoom">
-                                            <img src="images/room/1.jpg" alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                        </div>
-                                        <!-- swiper-slide end-->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- fw-carousel end -->
-                            <div class="fw-carousel-button-prev slider-button"><i class="fa-solid fa-caret-left"></i></div>
-                            <div class="fw-carousel-button-next slider-button"><i class="fa-solid fa-caret-right"></i></div>
-                            <div class="sc-controls fwc_pag">
-                                <div class="ss-slider-pagination"></div>
-                            </div>
-                        </div>
-                        <!-- fw-carousel-wrap end -->			
-                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8">
@@ -258,6 +75,60 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra. Interdum et malesu they adamale fames ac anteipsu pimsine faucibus curabitur arcu site feugiat in tortor in, volutpat sollicitudin libero. Hotel non lorem acer suscipit bibendum vulla facilisi nedeuter .</p>
                                             <p>Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis. Diam dui euismod eget donec. Pharetra leo sed felis urna. At a viverra urna elementum tristique ac integer pretium. Vel tincidunt sed mi nulla lectus sagittis.</p>
                                         </div>
+                                        <div class="tbc-separator"></div>
+                                        <div class="tbc_subtitle">Gallery of Elegance  </div>
+                                        <!-- gallery-items   -->
+                                        <div class="gallery-items  spad list-single-gallery three-coulms lightgallery">
+                                            <!-- 1 -->
+                                            <div class="gallery-item ">
+                                                <div class="grid-item-holder">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 1 end -->
+                                            <!-- 2 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder hov_zoom">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 2 end -->
+                                            <!-- 3 -->
+                                            <div class="gallery-item gallery-item-second">
+                                                <div class="grid-item-holder hov_zoom">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 3 end -->
+                                            <!-- 4 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder hov_zoom">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"  ></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 4 end -->
+                                            <!-- 5 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder hov_zoom">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"  ></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 5 end -->
+                                            <!-- 7 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder hov_zoom">
+                                                    <img  src="images/room/1.jpg"   alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom popup-image"><i class="fa fa-search"  ></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- 7 end -->
+                                        </div>
+                                        <!-- end gallery items -->									
                                         <div class="tbc-separator"></div>
                                         <div class="tbc_subtitle">Room Amenities  </div>
                                         <div class="meg_aminites">
@@ -361,12 +232,12 @@
                             <div class=" row">
                                 <!-- 1  --> 
                                 <div class="item-related col-lg-4">
-                                    <a href="room-single.html" class="item-related_img">
+                                    <a href="room-single.php" class="item-related_img">
                                         <img src="images/room/1.jpg" class="respimg"   alt="">
                                         <div class="overlay"></div>
                                         <span>View Details</span>
                                     </a>
-                                    <h3><a href="room-single.html">Premium Panorama Room</a></h3>
+                                    <h3><a href="room-single.php">Premium Panorama Room</a></h3>
                                     <span class="post-date post-price">$230/Night</span>
                                     <div class="room-card-details">
                                         <ul>
@@ -379,12 +250,12 @@
                                 <!-- 1 end--> 
                                 <!-- 2  --> 
                                 <div class="item-related col-lg-4">
-                                    <a href="room-single.html" class="item-related_img">
+                                    <a href="room-single.php" class="item-related_img">
                                         <img src="images/room/1.jpg" class="respimg"   alt="">
                                         <div class="overlay"></div>
                                         <span>View Details</span>
                                     </a>
-                                    <h3><a href="room-single.html">Beach Villa Room</a></h3>
+                                    <h3><a href="room-single.php">Beach Villa Room</a></h3>
                                     <span class="post-date post-price">$321/Night</span>
                                     <div class="room-card-details">
                                         <ul>
@@ -397,12 +268,12 @@
                                 <!-- 2 end-->  
                                 <!-- 3  --> 
                                 <div class="item-related col-lg-4">
-                                    <a href="room-single.html" class="item-related_img">
+                                    <a href="room-single.php" class="item-related_img">
                                         <img src="images/room/1.jpg" class="respimg"   alt="">
                                         <div class="overlay"></div>
                                         <span>View Details</span>
                                     </a>
-                                    <h3><a href="room-single.html">Superior Panorama Room</a></h3>
+                                    <h3><a href="room-single.php">Superior Panorama Room</a></h3>
                                     <span class="post-date post-price">$143/Night</span>
                                     <div class="room-card-details">
                                         <ul>
@@ -439,7 +310,7 @@
                                         <div class="footer-widget-title">About us</div>
                                         <div class="footer-widget-content">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eaque ipsa quae ab illo inventore veritatis et quasi architecto. Consectetur adipiscing elit. </p>
-                                            <a href="about.html" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
+                                            <a href="about.php" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
                                         </div>
                                     </div>
                                 </div>
@@ -456,7 +327,7 @@
                                                     <li><span>Find us : </span><a href="#">USA 27TH Brooklyn NY</a></li>
                                                 </ul>
                                             </div>
-                                            <a href="contacts.html" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
+                                            <a href="contacts.php" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
                                         </div>
                                     </div>
                                 </div>
@@ -514,7 +385,7 @@
                 </div>
                 <div class="footer-bottom">
                     <div class="container">
-                        <a href="index.html" class="footer-logo"><img src="images/logo.png" alt=""></a>
+                        <a href="index.php" class="footer-logo"><img src="images/logo.png" alt=""></a>
                         <div class="copyright">&#169; Diamant 2024 . All rights reserved. </div>
                         <div class="to-top"><span>Back To Top </span><i class="fal fa-angle-double-up"></i></div>
                     </div>

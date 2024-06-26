@@ -1,3 +1,4 @@
+<?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
@@ -27,7 +28,7 @@
         <div id="main">
             <!-- cs-content-container -->
             <div class="cs-content-container">
-                <a href="index.html" class="cs-logo"><img src="images/logo3.png" alt=""></a>
+                <a href="index.php" class="cs-logo"><img src="images/logo3.png" alt=""></a>
                 <div class="cs-content-wrapper">
                     <h3>Under Construction</h3>
                     <h2>Our Website is Coming Soon</h2>

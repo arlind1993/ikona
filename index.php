@@ -1,151 +1,12 @@
+<?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Diamant - Hotel & Resort Booking  Template</title>
-        <!--=============== css  ===============-->	
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
-    </head>
+    <?php echo generateHead("Diamant - Hotel & Resort Booking  Template")?>
     <body>
-        <!-- lodaer  -->
-        <div class="loader-wrap">
-            <div class="loader-item">
-                <div class="cd-loader-layer" data-frame="25">
-                    <div class="loader-layer"></div>
-                </div>
-                <span class="loader"><i class="fa-thin fa-gem"></i></span>
-            </div>
-        </div>
-        <!-- loader end  -->
+        <?php require_once "loader.php"?>
         <!--  main   -->
         <div id="main">
-            <!--  header  -->
-            <header class="main-header">
-                <div class="container">
-                    <!--  header-top -->
-                    <div class="header-top  fl-wrap">
-                        <div class="header-top_contacts"><a href="#"><span>Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
-                        <div class="header-social">
-                            <ul>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="booking-reviews">
-                            <div class="br-counter">
-                                <div class="ribbon"></div>
-                                <span>4.9</span>
-                            </div>
-                            <a href="#" target="_blank" class="br_link">
-                                <div class="star-rating" data-starrating="5"> </div>
-                                <p>Our ratings on Booking.com</p>
-                            </a>
-                        </div>
-                        <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>
-                    </div>
-                    <!--  header-top end  -->
-                    <div class="nav-holder-wrap init-fix-header  fl-wrap">
-                        <a href="index.html" class="logo-holder"><img src="images/logo2.png" alt=""></a>
-                        <!--  navigation -->
-                        <div class="nav-holder main-menu">
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="#" class="act-link">Home <i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="index.html">Style 1</a></li>
-                                            <li><a href="index2.html">Style 2</a></li>
-                                            <li><a href="index3.html">Style 3</a></li>
-                                            <li><a href="onepage.html">One Page</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li>
-                                        <a href="#">Rooms<i class="fas fa-caret-down"></i></a>
-                                        <!--second level -->
-                                        <ul>
-                                            <li><a href="rooms.html">Rooms 1</a></li>
-                                            <li><a href="rooms2.html">Rooms 2</a></li>
-                                            <li><a href="rooms3.html">Rooms 3</a></li>
-                                            <li><a href="rooms4.html">Rooms 4</a></li>
-                                            <li><a href="room-single.html">Room single</a></li>
-                                            <li><a href="room-single2.html">Room single 2</a></li>
-                                            <li><a href="room-single3.html">Room single 3</a></li>
-                                        </ul>
-                                        <!--second level end-->
-                                    </li>
-                                    <li><a href="restaurant.html">Restaurant</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">News</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- navigation  end -->  		
-                        <div class="serach-header-btn_wrap">							
-                            <a href="rooms.html" class="serach-header-btn"><i class="fa-light fa-magnifying-glass"></i> <span>Serach a Room</span></a>
-                        </div>
-                        <div class="show-cart sc_btn   htact"><i class="fa-light fa-basket-shopping-simple"></i><span class="show-cart_count">2</span><span class="header-tooltip">Your Wishlist</span></div>
-                        <div class="show-share-btn showshare htact"><i class="fa-light fa-share-nodes"></i><span class="header-tooltip">Share</span></div>
-                        <!-- nav-button-wrap-->
-                        <div class="nav-button-wrap">
-                            <div class="nav-button">
-                                <span></span><span></span><span></span>
-                            </div>
-                        </div>
-                        <!-- nav-button-wrap end-->					
-                        <!-- share-wrapper -->
-                        <div class="share-wrapper isShare">
-                            <div class="share-container fl-wrap"></div>
-                        </div>
-                        <!-- share-wrapper-end -->					
-                        <!--wish-list-wrap-->
-                        <div class="wish-list-wrap novis_cart">
-                            <div class="wish-list-close close_cart-init clwl_btn"><i class="fa-regular fa-xmark"></i></div>
-                            <div class="wish-list-title">Your Wishlist </div>
-                            <div class="wish-list-container">
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Garden Family Room</a></h4>
-                                        <div class="wish-list-price">$129/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                                <!--wish-list-item-->
-                                <div class="wish-list-item fl-wrap">
-                                    <div class="wish-list-img"><a href="room-single.html"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
-                                    </div>
-                                    <div class="wish-list-descr">
-                                        <h4><a href="room-single.html">Premium Panorama Room</a></h4>
-                                        <div class="wish-list-price"> $230/Night</div>
-                                        <a  href="room-single.html" class="wshil_link">Book Now</a>
-                                        <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                    </div>
-                                </div>
-                                <!--wish-list-item end-->
-                            </div>
-                            <div class="wish-list-wrap-btns">
-                                <a href="#" class="wl_btn">Clear wishlist</a>
-                            </div>
-                        </div>
-                        <!--wish-list-wrap-->
-                    </div>
-                </div>
-            </header>
+            <?php require_once "header.php"?>
             <div class="header-overlay close_cart-init"></div>
             <!--  header end  -->
             <!--  section  -->
@@ -179,7 +40,7 @@
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                                             <h2>A New Vision Of Comfort</h2>
                                             <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
-                                            <a href="rooms.html" class="stg_link custom-scroll-link">View Our Rooms</a>
+                                            <a href="rooms.php" class="stg_link custom-scroll-link">View Our Rooms</a>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +56,7 @@
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                                             <h2>Explore Premium Panorama Room</h2>
                                             <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
-                                            <a href="rooms.html" class="stg_link custom-scroll-link">View  Room Details</a>
+                                            <a href="rooms.php" class="stg_link custom-scroll-link">View  Room Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +120,7 @@
                                     <p class="has-drop-cap">Qed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Ut enim ad minima Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. 
                                     </p>
                                     <p>Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis.    Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis.   </p>
-                                    <a href="about.html" class="btn fl-btn ">Read more About Us</a>
+                                    <a href="about.php" class="btn fl-btn ">Read more About Us</a>
                                     <div class="dc_dec-item_left"><span></span></div>
                                 </div>
                             </div>
@@ -288,7 +149,7 @@
                                 <h4>Special selection</h4>
                                 <h2>Popular Rooms And Suites</h2>
                                 <div class="section-separator sect_se_transparent"><span><i class="fa-thin fa-gem"></i></span></div>
-                                <a href="rooms.html" class="stg_link">View All Rooms</a>	
+                                <a href="rooms.php" class="stg_link">View All Rooms</a>	
                             </div>
                             <div class="map-dec2"></div>
                             <div class="footer-separator fs_sin"><span></span></div>
@@ -306,7 +167,7 @@
                                                         <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
                                                     </div>
                                                     <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.html">Garden Family Room</a>  </h3>
+                                                        <h3><a href="room-single.php">Garden Family Room</a>  </h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
                                                         <div class="room-card-details">
                                                             <ul>
@@ -330,7 +191,7 @@
                                                         <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
                                                     </div>
                                                     <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.html">Premium Panorama Room</a>  </h3>
+                                                        <h3><a href="room-single.php">Premium Panorama Room</a>  </h3>
                                                         <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.   </p>
                                                         <div class="room-card-details">
                                                             <ul>
@@ -354,7 +215,7 @@
                                                         <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
                                                     </div>
                                                     <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.html">Presidential Suite</a>  </h3>
+                                                        <h3><a href="room-single.php">Presidential Suite</a>  </h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
                                                         <div class="room-card-details">
                                                             <ul>
@@ -378,7 +239,7 @@
                                                         <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
                                                     </div>
                                                     <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.html">Beach Villa Room</a>  </h3>
+                                                        <h3><a href="room-single.php">Beach Villa Room</a>  </h3>
                                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
                                                         <div class="room-card-details">
                                                             <ul>
@@ -515,7 +376,7 @@
                             <div class="dc_dec-item_left"><span></span></div>
                             <div class="dc_dec-item_right"><span></span></div>
                         </div>
-                        <a href="contact.html"   class="dwonload_btn">Get In touch With Us</a>
+                        <a href="contact.php"   class="dwonload_btn">Get In touch With Us</a>
                         <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
                         <div class="sc-dec2" style="right: -220px; top: -100px;"></div>
                     </div>
@@ -725,7 +586,7 @@
                         <div class="column-wrap-bg-text">
                             <h3>Our restaurant</h3>
                             <h4>Want to order food at number? Visit our online store.</h4>
-                            <a href="restaurant.html" class="hero-rsto-link">Visit Our restaurant</a>
+                            <a href="restaurant.php" class="hero-rsto-link">Visit Our restaurant</a>
                         </div>
                     </div>
                     <div class="column-section-wrap left-column-section" >
@@ -744,7 +605,7 @@
                                                 <!-- swiper-slide -->
                                                 <div class="swiper-slide">
                                                     <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.html">Jazz Band Live Event</a></h4>
+                                                        <h4><a href="blog-single.php">Jazz Band Live Event</a></h4>
                                                         <span class="event-date">25 may 2020</span>
                                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. </p>
                                                     </div>
@@ -753,7 +614,7 @@
                                                 <!-- swiper-slide -->
                                                 <div class="swiper-slide">
                                                     <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.html">Wine and Steak Day</a></h4>
+                                                        <h4><a href="blog-single.php">Wine and Steak Day</a></h4>
                                                         <span class="event-date">19 June 2020</span>
                                                         <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit   gravida. </p>
                                                     </div>
@@ -762,7 +623,7 @@
                                                 <!-- swiper-slide -->
                                                 <div class="swiper-slide">
                                                     <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.html">Freedom Day Celebration</a></h4>
+                                                        <h4><a href="blog-single.php">Freedom Day Celebration</a></h4>
                                                         <span class="event-date">14 October 2020</span>
                                                         <p>Lorem Ipsum generators on the Internet king this the first true generator laudantium totam aperiam. </p>
                                                     </div>
@@ -775,7 +636,7 @@
                                     <div class="ec-button ec-button-next"><i class="fas fa-angle-right"></i></div>
                                 </div>
                                 <!-- events-carousel-wrap end -->
-                                <a href="blog.html" class="stg_link">Read all News</a>
+                                <a href="blog.php" class="stg_link">Read all News</a>
                             </div>
                         </div>
                         <div class="map-dec2"></div>
@@ -878,105 +739,7 @@
                 <div class="content-dec"><span></span></div>
             </div>
             <!--content end-->
-            <!--footer  -->
-            <div class="height-emulator"></div>
-            <footer class="main-footer">
-                <div class="footer-inner">
-                    <div class="container">
-                        <!-- footer-widget-wrap -->
-                        <div class="footer-widget-wrap">
-                            <div class="footer-separator-wrap">
-                                <div class="footer-separator"><span></span></div>
-                            </div>
-                            <div class="row">
-                                <!-- footer-widget -->
-                                <div class="col-lg-3">
-                                    <div class="footer-widget">
-                                        <div class="footer-widget-title">About us</div>
-                                        <div class="footer-widget-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eaque ipsa quae ab illo inventore veritatis et quasi architecto. Consectetur adipiscing elit. </p>
-                                            <a href="about.html" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- footer-widget  end-->
-                                <!-- footer-widget -->
-                                <div class="col-lg-3">
-                                    <div class="footer-widget">
-                                        <div class="footer-widget-title">Contact info  </div>
-                                        <div class="footer-widget-content">
-                                            <div class="footer-contacts footer-box">
-                                                <ul>
-                                                    <li><span>Call :</span><a href="#">+489756412322</a> , <a href="#">+56897456123</a></li>
-                                                    <li><span>Write  :</span><a href="#">yourmail@domain.com</a></li>
-                                                    <li><span>Find us : </span><a href="#">USA 27TH Brooklyn NY</a></li>
-                                                </ul>
-                                            </div>
-                                            <a href="contacts.html" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- footer-widget  end-->
-                                <!-- footer-widget -->
-                                <div class="col-lg-2">
-                                    <div class="footer-widget">
-                                        <div class="footer-widget-title">Helpful links</div>
-                                        <div class="footer-widget-content">
-                                            <div class="footer-list footer-box  ">
-                                                <ul>
-                                                    <li><a href="#">Our last News</a></li>
-                                                    <li><a href="#">Rooms</a></li>
-                                                    <li><a href="#">Contacts</a></li>
-                                                    <li><a href="#">About</a></li>
-                                                    <li><a href="#">Privacy Policy</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- footer-widget  end-->								
-                                <!-- footer-widget -->
-                                <div class="col-lg-4">
-                                    <div class="footer-widget">
-                                        <div class="footer-widget-title">Subscribe</div>
-                                        <div class="footer-widget-content">
-                                            <div class="subcribe-form">
-                                                <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-                                                <form id="subscribe">
-                                                    <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
-                                                    <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Send </button>
-                                                    <label for="subscribe-email" class="subscribe-message"></label>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- footer-widget  end-->
-                            </div>
-                        </div>
-                        <!-- footer-widget-wrap end-->					
-                    </div>
-                    <div class="footer-title-dec">Diamant Hotel</div>
-                </div>
-                <div class="footer-social">
-                    <div class="container">
-                        <ul>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <a href="index.html" class="footer-logo"><img src="images/logo.png" alt=""></a>
-                        <div class="copyright">&#169; Diamant 2024 . All rights reserved. </div>
-                        <div class="to-top"><span>Back To Top </span><i class="fal fa-angle-double-up"></i></div>
-                    </div>
-                </div>
-            </footer>
-            <!--footer end-->
+            <?php require_once "footer.php"?>
         </div>
         <!-- Main end -->
         <!--=============== scripts  ===============-->   
