@@ -1367,11 +1367,7 @@
             <!--footer end-->
         </div>
         <!-- Main end -->
-        <!--=============== scripts  ===============-->   
-        <script  src="https://maps.google.com/maps/api/js?key=YOUR_API_KEY_HERE"></script>		
-        <script  src="js/jquery.min.js"></script>
-        <script  src="js/plugins.js"></script>
-        <script  src="js/scripts.js"></script>
-        <script  src="js/map.js"></script>	
+        
+        <?php echo generateScripts(['maps'=> true])?>
     </body>
 </html>

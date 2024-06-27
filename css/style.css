@@ -443,6 +443,7 @@ blockquote p {
 }
 .lang-wrap a {
 	color:#fff;
+	cursor: pointer;
 	margin: 0 4px;
 }
 .lang-wrap a:hover , .lang-wrap a.act-lang {

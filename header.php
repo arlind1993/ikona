@@ -2,7 +2,7 @@
             <div class="container">
                 <!--  header-top -->
                 <div class="header-top  fl-wrap">
-                    <div class="header-top_contacts"><a href="#"><span>Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
+                    <div class="header-top_contacts"><a href="#"><span id="call_title">Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
                     <div class="header-social">
                         <ul>
                             <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -21,7 +21,13 @@
                             <p>Our ratings on Booking.com</p>
                         </a>
                     </div>
-                    <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>
+                    <div class="lang-wrap">
+                        <a id="en_title" class="language-select" onclick="changeLanguage('en')">EN</a>
+                        <span>/</span>
+                        <a id="al_title" class="language-select" onclick="changeLanguage('al')">AL</a>
+                        <span>/</span>
+                        <a id="it_title" class="language-select" onclick="changeLanguage('it')">IT</a>
+                    </div>
                 </div>
                 <!--  header-top end  -->
                 <div class="nav-holder-wrap init-fix-header  fl-wrap">

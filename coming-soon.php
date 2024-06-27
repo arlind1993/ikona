@@ -151,10 +151,6 @@
             <!-- cs-media end-->
         </div>
         <!-- Main end -->
-        <!--=============== scripts  ===============-->
-        <script  src="js/jquery.min.js"></script>
-        <script  src="js/plugins.js"></script>
-        <script  src="js/scripts.js"></script>
-        <script src="js/cs-scripts.js"></script>
+        <?php echo generateScripts(['cs'=> true])?>
     </body>
 </html>
