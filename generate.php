@@ -1,5 +1,5 @@
 <?php
-    $mapApi = "YOUR_MAP_API_HERE";
+    $mapApi = "AIzaSyDXrqUc7k84GZ0W6P5sMFrKFMVIdN-Nd0w";
     function generateHead($title) {
         // Generate the HTML content
         $html = '

@@ -12,6 +12,7 @@ $(window).ready(function() {
 
       // Function to change language
       window.changeLanguage = function(lang) {
+        console.log(lang);
         Cookies.set('language', lang, { expires: 31 }); // Save the language preference for 7 days
         loadLanguage(lang);
         $('.act-lang').removeClass('act-lang'); // Remove active class from the current active language
@@ -20,10 +21,5 @@ $(window).ready(function() {
 
       // Check for a saved language preference in cookies
       var savedLang = Cookies.get('language');
-      if (savedLang) {
-        changeLanguage(savedLang);
-      } else {
-        changeLanguage('en'); // Default to English
-      }
-      
+      changeLanguage(savedLang ?? 'en');
 });
