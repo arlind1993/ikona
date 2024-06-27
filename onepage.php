@@ -274,47 +274,11 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                     <div class="container">
                         <div class="wide_section-title">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-12">
                                     <h5>Other aminites and services</h5>
                                     <h3>ENJOY COMPLETE & BEST QUALITY Cooperation</h3>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="clients-carousel-wrap">
-                                        <div class="cc-btn   cc-prev"><i class="fas fa-angle-left"></i></div>
-                                        <div class="cc-btn cc-next"><i class="fas fa-angle-right"></i></div>
-                                        <div class="clients-carousel">
-                                            <div class="swiper-container">
-                                                <div class="swiper-wrapper">
-                                                    <!--client-item-->
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="client-item"><img src="images/clients/1.png" alt=""></a>
-                                                    </div>
-                                                    <!--client-item end-->
-                                                    <!--client-item-->
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="client-item"><img src="images/clients/1.png" alt=""></a>
-                                                    </div>
-                                                    <!--client-item end-->
-                                                    <!--client-item-->
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="client-item"><img src="images/clients/1.png" alt=""></a>
-                                                    </div>
-                                                    <!--client-item end-->
-                                                    <!--client-item-->
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="client-item"><img src="images/clients/1.png" alt=""></a>
-                                                    </div>
-                                                    <!--client-item end-->
-                                                    <!--client-item-->
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="client-item"><img src="images/clients/1.png" alt=""></a>
-                                                    </div>
-                                                    <!--client-item end-->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                         <!--boxed-container-->				
@@ -323,32 +287,28 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 <div class="dec-container">
                                     <div class="boxed-container-title_item">
                                         <h4>More about us</h4>
-                                        <h2>Luxary Premium Hotel In NewYork, USA </h2>
-                                        <p class="has-drop-cap">Qolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero adipiscing elit. Donec auctor et urnaLorem ipsum dolor sit.</p>
-                                        <p> Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.Cras   </p>
-                                        <div class="tbc-separator"></div>
-                                        <div class="signature-opt">
-                                            <div class="signature_title">
-                                                <img src="images/avatar/1.jpg" alt="">
-                                                <div class="signature_title_item">
-                                                    <h5>Kevin Cooper</h5>
-                                                    <h6>Hotel Manager</h6>
-                                                </div>
-                                            </div>
-                                            <div class="signature_item"><img src="images/signature.png" class="respimg" alt=""></div>
-                                        </div>
+                                        <h2>Try the Shkodran experience! </h2>
+
+                                        <p class="has-drop-cap">At Ikona Hotel, we believe that the details make the difference. Our rooms are thoughtfully designed with a modern rustic aesthetic, creating a unique blend of contemporary comfort and natural charm. This design choice not only distinguishes us from other hotels but also provides our guests with a cozy and inviting environment that feels like a home away from home.</p>
+                                        <p> We understand that a comfortable stay goes beyond just aesthetics. That's why we've incorporated soft ambient lighting throughout our hotel, carefully chosen to enhance relaxation and create a soothing atmosphere. Whether you're here to unwind after a day of sightseeing or to catch up on work, our lighting ensures the perfect ambiance for any activity.
+                                            <br>Our dedication to hospitality is reflected in our 24/7 service. No matter the time of day or night, our friendly and professional staff is always on hand to assist with any requests or needs you may have. From providing local recommendations to ensuring your room is immaculate, we go above and beyond to make your stay as pleasant and hassle-free as possible.
+                                            <br>As advocates of Shkodra's rich cultural heritage, we encourage our guests to immerse themselves in the local way of life. We offer various experiences and recommendations to help you connect with the city's history, traditions, and vibrant community. Whether it's exploring the historic sites, enjoying the local cuisine, or participating in cultural events, we strive to make your visit to Shkodra truly memorable.
+                                            <br>At Ikon Hotel, cleanliness is paramount. We adhere to the highest standards of hygiene to ensure that every part of our hotel is spotless. Our rigorous cleaning protocols and attention to detail guarantee a safe and comfortable environment for all our guests.
+                                            <br>We invite you to discover the difference that a stay at Ikon Hotel can make. Experience the perfect blend of modern comfort and rustic charm, exceptional service, and the genuine hospitality that only a family-run hotel can offer. We look forward to welcoming you and making your stay in Shkodra unforgettable.
+                                            </p>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="boxed-container-wrap">
-                                <div class="bg" data-bg="images/bg/1.jpg"></div>
+                                <div class="bg" data-bg="images/bg/bck5.jpeg"></div>
                                 <div class="overlay"></div>
                                 <div class="promo-video">
                                     <div class="video-box-btn image-popup color-bg"  id="html5-videos" data-html="#video1"><i class="fas fa-play"></i></div>
                                     <h4>Video About Our Hotels</h4>
                                 </div>
                             </div>
-                            <div style="display:none;" id="video1" class="popup_video" data-videolink="video/1.mp4">
+                            <div style="display:none;" id="video1" class="popup_video" data-videolink="video/video.mp4">
                                 <video class="lg-video-object lg-html5" controls preload="none">
                                     <source src="/" type="video/mp4">
                                 </video>
@@ -362,9 +322,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 <!--aminites-card-item-->
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
-                                        <i class="fa-thin fa-alarm-clock"></i>
-                                        <h4>Pick Up & Drop</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                    <i class="fa-light fa-desktop" style="color: #E2CBAD;"></i>
+                                        <h4>Media & Technology</h4>
+                                        <p>Each room in our hotel is equipped with a flat-screen TV, telephone, refrigerator, air conditioning, and other appliances to ensure your utmost comfort and convenience.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">01.</span>
                                     </div>
@@ -375,7 +335,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-circle-parking"></i>
                                         <h4>Parking Space</h4>
-                                        <p>Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. </p>
+                                        <p>Our hotel offers a private parking space for each reserved room, ensuring our clients won't have to worry about their vehicles.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">02.</span>
                                     </div>
@@ -386,7 +346,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-vacuum"></i>
                                         <h4>Room Service</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                        <p>We take pride in our 24-hour room service, always available for anything you may need.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">03.</span>
                                     </div>
@@ -397,7 +357,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-wifi"></i>
                                         <h4>Free WiFi</h4>
-                                        <p>Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. </p>
+                                        <p>Wi-Fi is available for all our clients, ensuring connectivity throughout their stay.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">04.</span>
                                     </div>
@@ -408,7 +368,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <div class="aminites-card-item">
                                         <i class="fa-light fa-croissant"></i>
                                         <h4>Free Breakfast</h4>
-                                        <p>Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. </p>
+                                        <p>Every reservation includes breakfast, featuring local produce from cottage cheese from northern villages to homemade jams offered by our hotel.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">05.</span>
                                     </div>
@@ -418,8 +378,8 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-map-location-dot"></i>
-                                        <h4>Travel accomodation</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                        <h4>Travel suggestions</h4>
+                                        <p>Our hotel partners with several Albanian travel agencies to suggest your next adventure or vacation spot.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">06.</span>
                                     </div>
@@ -428,9 +388,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 <!--aminites-card-item-->
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
-                                        <i class="fa-thin fa-plane"></i>
-                                        <h4>Airport Shuttle</h4>
-                                        <p>Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. </p>
+                                    <i class="fa-solid fa-shield-halved" style="color: #E2CBAD;"></i>
+                                        <h4>Safety & Security</h4>
+                                        <p>For your peace of mind, the hotel has camera surveillance, ensuring the security of you and your belongings throughout your stay. </p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">07.</span>
                                     </div>
@@ -439,9 +399,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 <!--aminites-card-item-->
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
-                                        <i class="fa-thin fa-wheelchair"></i>
-                                        <h4>Wheelchair Friendly</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                    <i class="fa-light fa-utensils" style="color: #E2CBAD;"></i>
+                                        <h4>Food & Drinks</h4>
+                                        <p>We offer a variety of Shkodran dishes, using only local produce and ensuring all selections are halal. Additionally, we provide a range of drinks, from cocktails to local raki and wine.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">08.</span>
                                     </div>
@@ -457,122 +417,17 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                     </div>
                 </div>
                 <!-- section end  -->					
-                <!-- section   -->
-                <div class="content-section dark-bg no-padding column-section hidden-section" data-scrollax-parent="true">
-                    <div class="column-wrap-bg right-wrap">
-                        <div class="par-elem">
-                            <div class="bg"  data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '20%' }"></div>
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="column-wrap-bg-text">
-                            <h3>Our restaurant</h3>
-                            <h4>Want to order food at number? Visit our online store.</h4>
-                            <a href="restaurant.php" class="hero-rsto-link">Visit Our restaurant</a>
-                        </div>
-                    </div>
-                    <div class="column-section-wrap left-column-section" >
-                        <div class="container"  >
-                            <div class="column-text">
-                                <div class="section-title">
-                                    <h4>Our Last News</h4>
-                                    <h2>Upcoming  Events & News</h2>
-                                    <div class="section-separator sect_se_transparent"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                </div>
-                                <!-- events-carousel-wrap -->
-                                <div class="events-carousel-wrap">
-                                    <div class="events-carousel">
-                                        <div class="swiper-container">
-                                            <div class="swiper-wrapper">
-                                                <!-- swiper-slide -->
-                                                <div class="swiper-slide">
-                                                    <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.php">Jazz Band Live Event</a></h4>
-                                                        <span class="event-date">25 may 2020</span>
-                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. </p>
-                                                    </div>
-                                                </div>
-                                                <!-- swiper-slide end -->
-                                                <!-- swiper-slide -->
-                                                <div class="swiper-slide">
-                                                    <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.php">Wine and Steak Day</a></h4>
-                                                        <span class="event-date">19 June 2020</span>
-                                                        <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit   gravida. </p>
-                                                    </div>
-                                                </div>
-                                                <!-- swiper-slide end -->
-                                                <!-- swiper-slide -->
-                                                <div class="swiper-slide">
-                                                    <div class="event-carousel-item">
-                                                        <h4><a href="blog-single.php">Freedom Day Celebration</a></h4>
-                                                        <span class="event-date">14 October 2020</span>
-                                                        <p>Lorem Ipsum generators on the Internet king this the first true generator laudantium totam aperiam. </p>
-                                                    </div>
-                                                </div>
-                                                <!-- swiper-slide end -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="ec-button ec-button-prev"><i class="fas fa-angle-left"></i></div>
-                                    <div class="ec-button ec-button-next"><i class="fas fa-angle-right"></i></div>
-                                </div>
-                                <!-- events-carousel-wrap end -->
-                                <a href="blog.php" class="stg_link">Read all News</a>
-                            </div>
-                        </div>
-                        <div class="map-dec2"></div>
-                        <div class="footer-separator fs_sin"><span></span></div>
-                    </div>
-                </div>
-                <!-- section end  -->				
+                			
                 <!-- section   -->
                 <div class="content-section" id="sec4">
                     <div class="content-dec2 fs-wrapper"></div>
                     <div class="section-dec"></div>
                     <div class="section-title">
                         <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                        <h2>Rooms And Suites</h2>
+                        <h2>Take a look at the rooms that we offer.</h2>
                         <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                     </div>
-                    <div class="container small-container ">
-                        <div class="fw-search-wrap" style="margin-top: 40px">
-                            <form  class="custom-form" action="/" name="searchform">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="date-container input-wrap">
-                                                <label>Date:</label>
-                                                <input type="text" id="res_date"     name="resdate"   value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="quantity">
-                                                <div class="quantity_title">Rooms: </div>
-                                                <div class="quantity-item">
-                                                    <input type="button" value="-" class="minus">
-                                                    <input type="text"    name="quantity"   title="Qty" class="qty color-bg" data-min="1" data-max="10" data-step="1" value="1">
-                                                    <input type="button" value="+" class="plus">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="quantity">
-                                                <div class="quantity_title">Guests: </div>
-                                                <div class="quantity-item">
-                                                    <input type="button" value="-" class="minus">
-                                                    <input type="text"    name="quantity"   title="Qty" class="qty color-bg" data-min="1" data-max="10" data-step="1" value="1">
-                                                    <input type="button" value="+" class="plus">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <button class="searchform-submit" id="searchform-submit">Search Room</button>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
+                   
                     <div class="container">
                         <div class="dec-container">
                             <div class="dc_dec-item_left"><span></span></div>
@@ -583,13 +438,11 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item desserts">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/couple.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Garden Family Room</a>  </h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
+                                            <h3><a href="room-single.php">Couples Delight</a>  </h3>
+                                            <p>For the perfect stay with your special someone, we provide a room featuring a queen bed, a workspace for catching up on work, ample storage for your belongings, and a private bathroom. </p>
                                             <div class="room-card-details">
                                                 <ul>
                                                     <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
@@ -598,7 +451,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$129/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -607,22 +460,21 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item seafood">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/garden.jpg"    alt="">
+                                            
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Premium Panorama Room</a></h3>
-                                            <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+                                            <h3><a href="room-single.php">Garden Panorama</a></h3>
+                                            <p>For couples and solo travelers alike, we invite you to experience our garden view rooms. Wake up to the serene beauty of blooming flowers right outside your window.</p><br><br>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>4 Guest</span></li>
-                                                    <li><i class="fa-light fa-bed-front"></i><span>2 Bed</span></li>
-                                                    <li><i class="fa-light fa-bath"></i><span>2 Bath</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
+                                                    <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
+                                                    <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$230/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -631,22 +483,23 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item desserts">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/family.jpg"    alt="">
+                                            
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Beach Villa Room</a>  </h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
+                                            <h3><a href="room-single.php">Family Room</a>  </h3>
+                                            <p>Traveling with family? Our spacious room includes a queen-sized bed and a twin-sized bed, ensuring a comfortable and enjoyable stay for everyone. </p>
+                                            <br><br>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>3 Guest</span></li>
                                                     <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
+                                                    <li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span>1 Bed</span></li>
                                                     <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$321/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -655,22 +508,22 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item seafood">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/family-deluxe.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Comfort Room </a></h3>
-                                            <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+                                            <h3><a href="room-single.php">Family Deluxe Room </a></h3>
+                                            <p>Traveling as a big family is always a hassle. Let us help you! The Family Deluxe Room includes one queen bed, one twin bed and one bunk bed, and a capacity of holding 5 persons.</p>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>1 Guest</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>5 Guest</span></li>
                                                     <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
-                                                    <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
+                                                    <li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span>1 Bed</span></li>
+                                                    <li><i class="fa-light fa-bed-bunk" style="color: #E2CBAD;"></i><span>1 Bed</span></li>
+                                                    
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$84/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -679,22 +532,20 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item desserts">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/trio.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php"> Presidential Suite</a>  </h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum.  </p>
+                                            <h3><a href="room-single.php">Trios Retreat</a>  </h3>
+                                            <p>Having a trio vacation with your friends? Reserve now the Trios Retreat room, where each one gets a twin bed, enough storage space for your belongings and a private bathroom.  </p>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
-                                                    <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>3 Guest</span></li>
+                                                    <li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span>3 Beds</span></li>
                                                     <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$543/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -703,22 +554,20 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!-- gallery-item-->
                                     <div class="gallery-item seafood">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/1.jpg"    alt="">
-                                            <a href="images/room/1.jpg" class="box-media-zoom   single-popup-image"><i class="fa-light fa-magnifying-glass"></i></a>
-                                            <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
+                                            <img  src="images/room/duos.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Superior  Panorama Room</a></h3>
-                                            <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+                                            <h3><a href="room-single.php">Duo's Comfort Room</a></h3>
+                                            <p>Duo's Room for every dynamic duo. Where you can find 2 twin beds, individual storage space and a private bathroom. Enjoy your stay in the beautiful city of Shkodra, carefree.</p>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>3 Guest</span></li>
-                                                    <li><i class="fa-light fa-bed-front"></i><span>2 Bed</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
+                                                    <li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span>2 Beds</span></li>
                                                     <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$1030/Night</span>
+                                                <span>$XXX/Night</span>
                                             </div>
                                             <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
@@ -727,169 +576,19 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="dwonload_btn">Load more</a>	
                     </div>
                     <div class="content-dec"><span></span></div>
                 </div>
                 <!-- section end  -->				
                 <!-- section end  -->
-                <!-- section   -->
-                <div class="content-section  parallax-section hidden-section dark-bg" data-scrollax-parent="true">
-                    <div class="bg par-elem"  data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '20%' }"></div>
-                    <div class="overlay overlay-bold"></div>
-                    <div class="dec-corner dc_lb"></div>
-                    <div class="dec-corner dc_rb"></div>
-                    <div class="dec-corner dc_rt"></div>
-                    <div class="dec-corner dc_lt"></div>
-                    <div class="container">
-                        <!-- inline-facts -->
-                        <div class="inline-facts-wrap">
-                            <div class="inline-facts">
-                                <div class="milestone-counter">
-                                    <div class="stats animaper">
-                                        <div class="num" data-content="0" data-num="254">154</div>
-                                    </div>
-                                </div>
-                                <h6>New Visiters Every Week</h6>
-                            </div>
-                            <!-- inline-facts end -->
-                            <!-- inline-facts  -->
-                            <div class="inline-facts">
-                                <div class="milestone-counter">
-                                    <div class="stats animaper">
-                                        <div class="num" data-content="0" data-num="12168">12168</div>
-                                    </div>
-                                </div>
-                                <h6>Happy Customers Every Year</h6>
-                            </div>
-                            <!-- inline-facts end -->
-                            <!-- inline-facts  -->
-                            <div class="inline-facts">
-                                <div class="milestone-counter">
-                                    <div class="stats animaper">
-                                        <div class="num" data-content="0" data-num="172">172</div>
-                                    </div>
-                                </div>
-                                <h6>Won Awards</h6>
-                            </div>
-                            <!-- inline-facts end -->
-                            <!-- inline-facts  -->
-                            <div class="inline-facts">
-                                <div class="milestone-counter">
-                                    <div class="stats animaper">
-                                        <div class="num" data-content="0" data-num="732">732</div>
-                                    </div>
-                                </div>
-                                <h6>Weekly Deliveries</h6>
-                            </div>
-                        </div>
-                        <!-- inline-facts end -->                          
-                    </div>
-                </div>
-                <!-- section end  -->	
-                <!-- section   -->
-                <div class="content-section" id="sec5">
-                    <div class="container">
-                        <div class="section-title">
-                            <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                            <h2>Meet Our Team</h2>
-                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                        </div>
-                        <div class="team-container">
-                            <div class="dec-container">
-                                <div class="text-block">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <!-- team-item -->
-                                            <div class="team-box">
-                                                <div class="team-photo">
-                                                    <img src="images/team/1.jpg" alt="" class="respimg">
-                                                    <div class="overlay"></div>
-                                                    <div class="team-social">
-                                                        <span class="ts_title">Follow</span>
-                                                        <ul>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="team-info fl-wrap">
-                                                    <h3> Kevin  Gray </h3>
-                                                    <h4>General Hotel Manager</h4>
-                                                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- team-item  end-->
-                                        <!-- team-item -->
-                                        <div class="col-lg-4">
-                                            <div class="team-box">
-                                                <div class="team-photo">
-                                                    <img src="images/team/1.jpg" alt="" class="respimg">
-                                                    <div class="overlay"></div>
-                                                    <div class="team-social">
-                                                        <span class="ts_title">Follow</span>
-                                                        <ul>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="team-info fl-wrap">
-                                                    <h3> Austin Evon </h3>
-                                                    <h4>Guest Service Department</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod   labore et dolore magna aliqua.  </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- team-item end  -->
-                                        <!-- team-item -->
-                                        <div class="col-lg-4">
-                                            <div class="team-box">
-                                                <div class="team-photo">
-                                                    <img src="images/team/1.jpg" alt="" class="respimg">
-                                                    <div class="overlay"></div>
-                                                    <div class="team-social">
-                                                        <span class="ts_title">Follow</span>
-                                                        <ul>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="team-info fl-wrap">
-                                                    <h3> Taylor Roberts </h3>
-                                                    <h4>Reservations Hotel Manager</h4>
-                                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit   ut aliquid commodi consequatur. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- team-item end  -->					
-                                    </div>
-                                </div>
-                                <div class="dc_dec-item_left"><span></span></div>
-                                <div class="dc_dec-item_right"><span></span></div>
-                            </div>
-                        </div>
-                        <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
-                        <div class="sc-dec2" style="right: -220px; top: -100px;"></div>
-                    </div>
-                    <div class="content-dec2 fs-wrapper"></div>
-                </div>
-                <!-- section end  -->	
+             
                 <!-- section   -->
                 <div class="content-section dark-bg parallax-section no-padding" id="sec6">
                     <div class="row">
                         <div class="st-gallery">
                             <div class="section-title">
                                 <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                                <h2>Our Gallery</h2>
+                                <h2>Our Ambients</h2>
                                 <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                             </div>
                             <div class="map-dec2"></div>
@@ -906,34 +605,35 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <div class="swiper-wrapper">
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide hov_zoom">
-                                                    <img src="images/room/1.jpg" alt="">
+                                                    <img src="images/room/garden.jpg" alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                </div>
+                                                <!-- swiper-slide end-->
+                                                 <!-- swiper-slide-->
+                                                <div class="swiper-slide  hov_zoom">
+                                                    <img src="images/services/terrace.jpg" alt="">
                                                     <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
-                                                    <img src="images/room/1.jpg" alt="">
+                                                    <img src="images/room/couple.jpg" alt="">
+                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                </div>
+                                                <!-- swiper-slide end-->
+                                                 <!-- swiper-slide-->
+                                                <div class="swiper-slide  hov_zoom">
+                                                    <img src="images/services/garden.jpg" alt="">
                                                     <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
-                                                    <img src="images/room/1.jpg" alt="">
+                                                    <img src="images/room/duos.jpg" alt="">
                                                     <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
-                                                <!-- swiper-slide-->
-                                                <div class="swiper-slide  hov_zoom">
-                                                    <img src="images/room/1.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                </div>
-                                                <!-- swiper-slide end-->
-                                                <!-- swiper-slide-->
-                                                <div class="swiper-slide  hov_zoom">
-                                                    <img src="images/room/1.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
-                                                </div>
-                                                <!-- swiper-slide end-->
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -1075,8 +775,8 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-location-dot"></i>
                                                 <span>Our Location</span>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                                <a href="#">USA 27TH Brooklyn NY</a>
+                                                <p>Nestled in the heart of Shkodra, our hotel is situated in one of the city's oldest neighborhoods. Enjoy easy access to the vibrant center, where you can immerse yourself in music, culture, and the lively spirit of this charming town. Accessible by any vehicle, our location ensures convenience and a memorable stay.</p>
+                                                <a href="#">3G98+2RQ, Rruga G'juhadol, Shkodër, Albania</a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->	
@@ -1085,9 +785,8 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-phone-rotary"></i>
                                                 <span>Our   Phone</span>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                                <a href="#"> +489756412322</a>
-                                                <a href="#"> +123456789222</a>
+                                                <p>Feel free to call us anytime at the number provided; our round-the-clock service ensures that you receive prompt assistance for all your reservation or request needs, ensuring your convenience and satisfaction throughout your stay.<br><br><br></p>
+                                                <a href="#"> +355 68 454 4403</a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->
@@ -1096,8 +795,8 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-mailbox"></i>
                                                 <span>Our Mail</span>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                                                <a href="#">yourmail@domain.com</a>
+                                                <p>Feel free to reach out to us via email with any questions you may have. Whether you need to make a request, cancellation, or reservation, we are here to assist you promptly. Our commitment is to respond within 24 hours to ensure your queries are addressed swiftly.<br><br></p>
+                                                <a href="#">hotelikona@gmail.com</a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->
@@ -1156,13 +855,13 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 <div class="footer-inner">
                     <div class="container">
                         <!-- footer-widget-wrap -->
-                        <div class="footer-widget-wrap">
+                        <!-- <div class="footer-widget-wrap">
                             <div class="footer-separator-wrap">
                                 <div class="footer-separator"><span></span></div>
                             </div>
-                            <div class="row">
+                            <div class="row"> -->
                                 <!-- footer-widget -->
-                                <div class="col-lg-3">
+                                <!-- <div class="col-lg-3">
                                     <div class="footer-widget">
                                         <div class="footer-widget-title">About us</div>
                                         <div class="footer-widget-content">
@@ -1170,10 +869,10 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <a href="about.php" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- footer-widget  end-->
                                 <!-- footer-widget -->
-                                <div class="col-lg-3">
+                                <!-- <div class="col-lg-3">
                                     <div class="footer-widget">
                                         <div class="footer-widget-title">Contact info  </div>
                                         <div class="footer-widget-content">
@@ -1187,10 +886,10 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <a href="contacts.php" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- footer-widget  end-->
                                 <!-- footer-widget -->
-                                <div class="col-lg-2">
+                                <!-- <div class="col-lg-2">
                                     <div class="footer-widget">
                                         <div class="footer-widget-title">Helpful links</div>
                                         <div class="footer-widget-content">
@@ -1205,10 +904,10 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- footer-widget  end-->								
                                 <!-- footer-widget -->
-                                <div class="col-lg-4">
+                                <!-- <div class="col-lg-4">
                                     <div class="footer-widget">
                                         <div class="footer-widget-title">Subscribe</div>
                                         <div class="footer-widget-content">
@@ -1222,10 +921,10 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- footer-widget  end-->
-                            </div>
-                        </div>
+                            <!-- </div>
+                        </div> -->
                         <!-- footer-widget-wrap end-->					
                     </div>
                     <div class="footer-title-dec">Diamant Hotel</div>
@@ -1242,8 +941,8 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 </div>
                 <div class="footer-bottom">
                     <div class="container">
-                        <a href="index.php" class="footer-logo"><img src="images/logo.png" alt=""></a>
-                        <div class="copyright">&#169; Diamant 2024 . All rights reserved. </div>
+                        <a href="index.php" class="footer-logo"><img src="images/logo7.png" alt=""></a>
+                        <div class="copyright">&#169; Hotel Ikona 2024 . All rights reserved. </div>
                         <div class="to-top"><span>Back To Top </span><i class="fal fa-angle-double-up"></i></div>
                     </div>
                 </div>
