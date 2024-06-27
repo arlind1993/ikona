@@ -154,9 +154,6 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 </div>
                 <!-- section end  -->				
                 <!-- section   -->
-               
-                <!-- section   -->	
-                <!-- section   -->
                 <div class="content-section" id="sec3">
                     <div class="container">
                         <div class="section-title">
