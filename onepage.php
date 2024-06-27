@@ -1,7 +1,7 @@
 <?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <?php echo generateHead("Diamant - Hotel & Resort Booking  Template")?>
+    <?php echo generateHead("Ikona Hotel")?>
     <body>
         <?php require_once "loader.php"?>
         <!--  main   -->
@@ -15,13 +15,13 @@
                             <!-- swiper-slide-->
                             <div class="swiper-slide">
                                 <div class="fs-slider-item hidden-content">
-                                    <div class="bg"  data-bg="images/bg/1.jpg" data-swiper-parallax="40%"></div>
+                                    <div class="bg"  data-bg="images/bg/bck.jpg" data-swiper-parallax="40%"></div>
                                     <div class="overlay overlay-bold"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2>Welcome to The Diamant <br>Premium Hotel</h2>
-                                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                            <h2>Welcome to Ikona Hotel</h2>
+                                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                             <a href="#sec2" class="stg_link custom-scroll-link">Start Explore</a>
                                         </div>
                                     </div>
@@ -31,13 +31,13 @@
                             <!-- swiper-slide-->
                             <div class="swiper-slide">
                                 <div class="fs-slider-item hidden-content">
-                                    <div class="bg"  data-bg="images/bg/1.jpg" data-swiper-parallax="40%"></div>
+                                    <div class="bg"  data-bg="images/bg/bck3.jpg" data-swiper-parallax="40%"></div>
                                     <div class="overlay"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2>A New Vision Of Comfort</h2>
-                                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                            <h2>Your perfect getaway awaits</h2>
+                                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                             <a href="sec4" class="stg_link custom-scroll-link">View Our Rooms</a>
                                         </div>
                                     </div>
@@ -47,13 +47,13 @@
                             <!-- swiper-slide-->
                             <div class="swiper-slide">
                                 <div class="fs-slider-item hidden-content">
-                                    <div class="bg"  data-bg="images/bg/1.jpg" data-swiper-parallax="40%"></div>
+                                    <div class="bg"  data-bg="images/bg/bck4.jpg" data-swiper-parallax="40%"></div>
                                     <div class="overlay"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2>Explore Premium Panorama Room</h2>
-                                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                            <h2>Experience Shkodran’s culture</h2>
+                                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                             <a href="#sec4" class="stg_link custom-scroll-link">View  Room Details</a>
                                         </div>
                                     </div>
@@ -115,9 +115,23 @@
                                     <h2>About Our Hotel</h2>
                                 </div>
                                 <div class="text-block tb-sin">
-                                    <p class="has-drop-cap">Qed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Ut enim ad minima Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. 
-                                    </p>
-                                    <p>Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis.    Fames massa tortor sit nisl sit. Duis nulla tempus quisque et diam condimentum nisl. Rhoncus quisque elementum nulla lorem at turpis vitae quisque. Vulputate duis vel et odio hendrerit magna. Nec lacus dui egestas sit. Vulputate tincidunt viverra viverra etiam porta facilisis.   </p>
+                                    <p class="has-drop-cap">Welcome to Ikona Hotel, a charming family-run business dedicated to offering 
+                                        a delightful stay for all those who wish to explore the beautiful city of Shkodra.
+                                         Our mission is to provide exceptional service, ensuring that each guest experiences
+                                          the rich culture and warm hospitality of Shkodra.</p>
+
+                                    <p>At Ikona Hotel, we pride ourselves on delivering excellent service around the clock. 
+                                        Our staff is available 24/7 to attend to your needs and make your stay as comfortable as possible. 
+                                        We invite you to immerse yourself in the local culture and live like a citizen of Shkodra, 
+                                        even if just for a few days. </br>
+
+Our unique modern rustic design sets us apart from other hotels. 
+By blending contemporary elements with natural materials, we create a warm and inviting atmosphere that reflects the charm of Shkodra. 
+Combined with our carefully designed ambient lighting, we aim to provide the most comfortable and relaxing experience for our guests.
+<br>
+Our commitment to cleanliness and hospitality is unwavering. We strive to be the best in these areas, ensuring that every corner of our hotel is spotless and every guest feels warmly welcomed.
+Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward to making your stay unforgettable.
+   </p>
                                     <a href="#sec3" class="btn fl-btn custom-scroll-link">View Our Services</a>
                                     <div class="dc_dec-item_left"><span></span></div>
                                 </div>
@@ -125,10 +139,10 @@
                             <div class="col-lg-6">
                                 <div class="hero-image-collge-wrap">
                                     <div class="single-dec_img">
-                                        <img src="images/all/1.jpg" alt="" class="respimg">
+                                        <img src="images/all/bck7.jpg" alt="" class="respimg">
                                     </div>
-                                    <div class="hero_images-collage-item" style="width: 25%; bottom:  25px; z-index: 15; left: -70px;"><img src="images/all/1.jpg" class="respimg" alt=""></div>
-                                    <div class="hero_images-collage-item" style="width: 45%; top: -5%; z-index: 11; right: -120px;"><img src="images/all/1.jpg" class="respimg" alt=""></div>
+                                    <div class="hero_images-collage-item" style="width: 25%; bottom:  25px; z-index: 15; left: -70px;"><img src="images/all/bck3.jpg" class="respimg" alt=""></div>
+                                    <div class="hero_images-collage-item" style="width: 45%; top: -5%; z-index: 11; right: -120px;"><img src="images/all/bck6.jpg" class="respimg" alt=""></div>
                                     <div class="dc_dec-item_right"><span></span></div>
                                 </div>
                             </div>
@@ -140,134 +154,7 @@
                 </div>
                 <!-- section end  -->				
                 <!-- section   -->
-                <div class="content-section dark-bg no-padding hidden-content">
-                    <div class="row">
-                        <div class="st-gallery">
-                            <div class="section-title">
-                                <h4>Special selection</h4>
-                                <h2>Popular Rooms And Suites</h2>
-                                <div class="section-separator sect_se_transparent"><span><i class="fa-thin fa-gem"></i></span></div>
-                                <a href="#sec4" class="stg_link custom-scroll-link">View All Rooms</a>	
-                            </div>
-                            <div class="map-dec2"></div>
-                            <div class="footer-separator fs_sin"><span></span></div>
-                        </div>
-                        <div class="col-lg-3">  </div>
-                        <div class="col-lg-9">
-                            <div class="rooms-carousel-wrap">
-                                <div class="rooms-carousel full-height">
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <!--rooms-carousel-item-->
-                                            <div class="swiper-slide">
-                                                <div class="rooms-carousel-item full-height">
-                                                    <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
-                                                        <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
-                                                    </div>
-                                                    <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.php">Garden Family Room</a>  </h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
-                                                        <div class="room-card-details">
-                                                            <ul>
-                                                                <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
-                                                                <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
-                                                                <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
-                                                            </ul>
-                                                            <div class="grid-item_price">
-                                                                <span>$129/Night</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
-                                                </div>
-                                            </div>
-                                            <!--rooms-carousel-item end-->
-                                            <!--rooms-carousel-item-->
-                                            <div class="swiper-slide">
-                                                <div class="rooms-carousel-item full-height">
-                                                    <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
-                                                        <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
-                                                    </div>
-                                                    <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.php">Premium Panorama Room</a>  </h3>
-                                                        <p>Quisque varius eros ac purus dignissim. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit.   </p>
-                                                        <div class="room-card-details">
-                                                            <ul>
-                                                                <li><i class="fa-light fa-user"></i><span>4 Guest</span></li>
-                                                                <li><i class="fa-light fa-bed-front"></i><span>2 Bed</span></li>
-                                                                <li><i class="fa-light fa-bath"></i><span>2 Bath</span></li>
-                                                            </ul>
-                                                            <div class="grid-item_price">
-                                                                <span>$230/Night</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
-                                                </div>
-                                            </div>
-                                            <!--rooms-carousel-item end-->										
-                                            <!--rooms-carousel-item-->
-                                            <div class="swiper-slide">
-                                                <div class="rooms-carousel-item full-height" >
-                                                    <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
-                                                        <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
-                                                    </div>
-                                                    <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.php">Presidential Suite</a>  </h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
-                                                        <div class="room-card-details">
-                                                            <ul>
-                                                                <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
-                                                                <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
-                                                                <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
-                                                            </ul>
-                                                            <div class="grid-item_price">
-                                                                <span>$543/Night</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
-                                                </div>
-                                            </div>
-                                            <!--rooms-carousel-item end-->										
-                                            <!--rooms-carousel-item-->
-                                            <div class="swiper-slide">
-                                                <div class="rooms-carousel-item full-height">
-                                                    <div class="bg-wrap bg-parallax-wrap-gradien fs-wrapper">
-                                                        <div class="bg" data-bg="images/room/1.jpg" data-swiper-parallax="10%"></div>
-                                                    </div>
-                                                    <div class="rooms-carousel-item_container">
-                                                        <h3><a href="room-single.php">Beach Villa Room</a>  </h3>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.  </p>
-                                                        <div class="room-card-details">
-                                                            <ul>
-                                                                <li><i class="fa-light fa-user"></i><span>3 Guest</span></li>
-                                                                <li><i class="fa-light fa-bed-front"></i><span>2 Bed</span></li>
-                                                                <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
-                                                            </ul>
-                                                            <div class="grid-item_price">
-                                                                <span>$321/Night</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="like-btn"><i class="fa-light fa-heart"></i> <span>Add to Wislist</span></div>
-                                                </div>
-                                            </div>
-                                            <!--rooms-carousel-item end-->									
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="rc-controls-wrap">
-                                    <div class="rc-button rc-button-prev"><i class="fa-solid fa-caret-left"></i></div>
-                                    <div class="rc-button rc-button-next"><i class="fa-solid fa-caret-right"></i></div>
-                                </div>
-                                <div class="sc-controls fwc_pag2">
-                                    <div class="ss-slider-pagination"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <!-- section   -->	
                 <!-- section   -->
                 <div class="content-section" id="sec3">
@@ -275,7 +162,7 @@
                         <div class="section-title">
                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                             <h2>Hotels Extra Services</h2>
-                            <div class="section-separator "><span><i class="fa-thin fa-gem"></i></span></div>
+                            <div class="section-separator "><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                         <div class="cards-wrap">
                             <div class="row">
@@ -285,13 +172,13 @@
                                         <div class="content-front">
                                             <div class="cf-inner">
                                                 <div class="fs-wrapper">
-                                                    <div class="bg "  data-bg="images/services/1.jpg"></div>
+                                                    <div class="bg "  data-bg="images/services/bar.jpg"></div>
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2>Spa And Wellness</h2>
-                                                    <h4>Start Relax better</h4>
-                                                    <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                                    <h2>Bar and Restaurant</h2>
+                                                    <h4>Eat Local Produce</h4>
+                                                    <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">01.</div>
                                             </div>
@@ -300,9 +187,9 @@
                                             <div class="cf-inner">
                                                 <div class="inner">
                                                     <div class="dec-icon">
-                                                        <i class="fa-light fa-spa"></i>
+                                                    <i class="fa-thin fa-utensils" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
+                                                    <p>Enjoy the local produce, and bio products that our hotel offers. From the included breakfast with traditional Albanian and Mediterranean infused cuisines to our cocktails.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -315,13 +202,13 @@
                                         <div class="content-front">
                                             <div class="cf-inner">
                                                 <div class="fs-wrapper">
-                                                    <div class="bg "  data-bg="images/services/1.jpg"></div>
+                                                    <div class="bg "  data-bg="images/services/terrace.jpg"></div>
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2>Indoor Swimming Pool</h2>
-                                                    <h4>Quality is the heart</h4>
-                                                    <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                                    <h2>Terrace</h2>
+                                                    <h4>Enjoy your evenings in fresh air!</h4>
+                                                    <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">02.</div>
                                             </div>
@@ -330,9 +217,9 @@
                                             <div class="cf-inner">
                                                 <div class="inner">
                                                     <div class="dec-icon">
-                                                        <i class="fa-thin fa-water-ladder"></i>
+                                                    <i class="fa-solid fa-chair" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
+                                                    <p>Enjoy your morning coffee or your evening beverage in the delightful view and breeze of our terrace.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -345,13 +232,13 @@
                                         <div class="content-front">
                                             <div class="cf-inner">
                                                 <div class="fs-wrapper">
-                                                    <div class="bg "  data-bg="images/services/1.jpg"></div>
+                                                    <div class="bg "  data-bg="images/services/garden.jpg"></div>
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2>The Restaurant Center</h2>
-                                                    <h4>Hot & ready to serve</h4>
-                                                    <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                                    <h2>Garden</h2>
+                                                    <h4>Relax with your companions!</h4>
+                                                    <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">03.</div>
                                             </div>
@@ -360,9 +247,9 @@
                                             <div class="cf-inner">
                                                 <div class="inner">
                                                     <div class="dec-icon">
-                                                        <i class="fa-thin fa-pot-food"></i>
+                                                    <i class="fa-solid fa-leaf" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.</p>
+                                                    <p>Experience the traditional Shkodran’s garden filled with flowers. The perfect place to relax and enjoy the ambient. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -471,7 +358,7 @@
                             </div>
                         </div>
                         <!--boxed-container end-->	
-                        <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                        <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         <!--aminites-cards-wrap-->
                         <div class="aminites-cards-wrap">
                             <div class="row">
@@ -592,7 +479,7 @@
                                 <div class="section-title">
                                     <h4>Our Last News</h4>
                                     <h2>Upcoming  Events & News</h2>
-                                    <div class="section-separator sect_se_transparent"><span><i class="fa-thin fa-gem"></i></span></div>
+                                    <div class="section-separator sect_se_transparent"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                 </div>
                                 <!-- events-carousel-wrap -->
                                 <div class="events-carousel-wrap">
@@ -648,7 +535,7 @@
                     <div class="section-title">
                         <h4>Enjoy your time in our Hotel with pleasure.</h4>
                         <h2>Rooms And Suites</h2>
-                        <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                        <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                     </div>
                     <div class="container small-container ">
                         <div class="fw-search-wrap" style="margin-top: 40px">
@@ -909,7 +796,7 @@
                         <div class="section-title">
                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                             <h2>Meet Our Team</h2>
-                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                         <div class="team-container">
                             <div class="dec-container">
@@ -1006,7 +893,7 @@
                             <div class="section-title">
                                 <h4>Enjoy your time in our Hotel with pleasure.</h4>
                                 <h2>Our Gallery</h2>
-                                <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                                <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                             </div>
                             <div class="map-dec2"></div>
                         </div>
@@ -1072,7 +959,7 @@
                         <div class="section-title">
                             <h4>What said about us</h4>
                             <h2>Testimonials & Clients</h2>
-                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                         <div class="sc-dec3" style="left: 40%; bottom: -200px;"></div>
                     </div>
@@ -1167,7 +1054,7 @@
                         <div class="section-title">
                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                             <h2>Our Contacts</h2>
-                            <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
+                            <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                     </div>
                     <div class="dec-corner dc_lb"></div>
