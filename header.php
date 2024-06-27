@@ -52,9 +52,9 @@
                                 </li>
                                 <li><a href="about.php">About</a></li>
                                 <li>
-                                    <a href="#">Rooms<i class="fas fa-caret-down"></i></a>
+                                    <a href="room-single.php">Rooms</a>
                                     <!--second level -->
-                                    <ul>
+                                    <!-- <ul>
                                         <li><a href="rooms.php">Rooms 1</a></li>
                                         <li><a href="rooms2.php">Rooms 2</a></li>
                                         <li><a href="rooms3.php">Rooms 3</a></li>
@@ -62,7 +62,7 @@
                                         <li><a href="room-single.php">Room single</a></li>
                                         <li><a href="room-single2.php">Room single 2</a></li>
                                         <li><a href="room-single3.php">Room single 3</a></li>
-                                    </ul>
+                                    </ul> -->
                                     <!--second level end-->
                                 </li>
                                 <li><a href="restaurant.php">Restaurant</a></li>
@@ -72,11 +72,7 @@
                         </nav>
                     </div>
                     <!-- navigation  end -->  		
-                    <div class="serach-header-btn_wrap">							
-                        <a href="rooms.php" class="serach-header-btn"><i class="fa-light fa-magnifying-glass"></i> <span>Serach a Room</span></a>
-                    </div>
-                    <div class="show-cart sc_btn   htact"><i class="fa-light fa-basket-shopping-simple"></i><span class="show-cart_count">2</span><span class="header-tooltip">Your Wishlist</span></div>
-                    <div class="show-share-btn showshare htact"><i class="fa-light fa-share-nodes"></i><span class="header-tooltip">Share</span></div>
+                    
                     <!-- nav-button-wrap-->
                     <div class="nav-button-wrap">
                         <div class="nav-button">

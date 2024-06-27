@@ -12,7 +12,7 @@
             <link type="text/css" rel="stylesheet" href="css/plugins.css">
             <link type="text/css" rel="stylesheet" href="css/style.css">
             <!--=============== favicons ===============-->
-            <link rel="shortcut icon" href="images/logo2.jpeg">
+            <link rel="shortcut icon" href="images/logo6.png">
         </head>
         ';
         return $html;
