@@ -1,8 +1,11 @@
         <header class="main-header">
             <div class="container">
                 <!--  header-top -->
+
                 <div class="header-top  fl-wrap">
-                    <div class="header-top_contacts"><a href="#"><span>Call:</span> +489756412322</a><a href="#"><span>Find us:</span> USA 27TH Brooklyn NY</a></div>
+
+               
+                    <div class="header-top_contacts"><a href="#"><span>Call:</span> +355 68 454 4403</a><a href="#"><span>Find us:</span> 3G98+2RQ, Rruga G'juhadol, Shkodër, Albania</a></div>
                     <div class="header-social">
                         <ul>
                             <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -14,32 +17,33 @@
                     <div class="booking-reviews">
                         <div class="br-counter">
                             <div class="ribbon"></div>
-                            <span>4.9</span>
+                            <span>4.0</span>
                         </div>
                         <a href="#" target="_blank" class="br_link">
-                            <div class="star-rating" data-starrating="5"> </div>
+                            <div class="star-rating" data-starrating="4"> </div>
                             <p>Our ratings on Booking.com</p>
                         </a>
                     </div>
-                    <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>
+                    <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Al</a></div>
                 </div>
                 <!--  header-top end  -->
                 <div class="nav-holder-wrap init-fix-header  fl-wrap">
-                    <a href="index.php" class="logo-holder"><img src="images/logo2.png" alt=""></a>
+                    <a href="index.php" class="logo-holder"><img src="images/logo5.png" alt=""></a>
                     <!--  navigation -->
                     <div class="nav-holder main-menu">
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="#" class="act-link">Home <i class="fas fa-caret-down"></i></a>
+                                    <a href="onepage.php" class="act-link">Home </a>
                                     <!--second level -->
-                                    <ul>
+                                    <!-- Nuk e hoqa ne rast se mos gabojme -->
+                                    <!-- <ul>
                                         <li><a href="index.php">Style 1</a></li>
                                         <li><a href="index2.php">Style 2</a></li>
                                         <li><a href="index3.php">Style 3</a></li>
                                         <li><a href="onepage.php">One Page</a></li>
                                         <li><a href="coming-soon.php">Coming Soon</a></li>
-                                    </ul>
+                                    </ul> -->
                                     <!--second level end-->
                                 </li>
                                 <li><a href="about.php">About</a></li>
@@ -58,8 +62,8 @@
                                     <!--second level end-->
                                 </li>
                                 <li><a href="restaurant.php">Restaurant</a></li>
-                                <li><a href="contact.php">Contact</a></li>
-                                <li><a href="blog.php">News</a></li>
+                                <li><a href="onepage.php#contact">Contact</a></li>
+                                <!-- <li><a href="blog.php">News</a></li> kjo nuk na nevojitet -->
                             </ul>
                         </nav>
                     </div>

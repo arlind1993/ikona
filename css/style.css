@@ -1344,7 +1344,7 @@ nav li ul a:before , nav li ul a:after {
     height: 340px;
     margin-left: -230px;
     z-index: -1;
-    background: url(../images/map_bg.png) no-repeat center;
+    background: url(../images/shkodra3.png) no-repeat center;
     opacity: .7;
 } 
 .map-dec2 {
@@ -1355,7 +1355,7 @@ nav li ul a:before , nav li ul a:after {
     height: 360px;
     margin : -180px 0 0 -162px;
     z-index: -1;
-    background: url(../images/map_bg2.png) no-repeat center;
+    background: url(../images/shkodra2.png) no-repeat center;
     opacity: .1;
 	transform: scale(.8)
 }
@@ -1364,7 +1364,7 @@ nav li ul a:before , nav li ul a:after {
 	z-index: -1;
 	width: 359px;
 	height: 207px;
-    background: url(../images/map_bg3.png) no-repeat center;
+    background: url(../images/shkodra3.png) no-repeat center;
     opacity: .4;
 	transform: scale(.7);
 }
@@ -1373,7 +1373,7 @@ nav li ul a:before , nav li ul a:after {
 	z-index: -1;
 	width: 253px;
 	height: 349px;
-    background: url(../images/map_bg4.png) no-repeat center;
+    background: url(../images/shkodra3.png) no-repeat center;
     opacity: .4;
 	transform: scale(.8);
 }
@@ -1382,7 +1382,7 @@ nav li ul a:before , nav li ul a:after {
 	z-index: -1;
 	width: 359px;
 	height: 207px;
-    background: url(../images/map_bg5.png) no-repeat center;
+    background: url(../images/shkodra3.png) no-repeat center;
     opacity: .4;
 	transform: scale(.8);
 }
