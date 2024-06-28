@@ -3,13 +3,11 @@
                 <!--  header-top -->
 
                 <div class="header-top  fl-wrap">
-                    <div class="header-top_contacts"><a href="#"><span id="call_title">Call:</span> +355 68 454 4403</a><a href="#"><span>Find us:</span> 3G98+2RQ, Rruga G'juhadol, Shkodër, Albania</a></div>
+                    <div class="header-top_contacts"><a target="_blank" href="<?php echo "tel:".$phoneNumber ?>"><span id="call_title">Call:</span><?php echo " ".$phoneNumber?></a><a target="_blank" href="<?php echo $mapRedirect?>"><span>Find us:</span><?php echo " ".$address?></a></div>
                     <div class="header-social">
                         <ul>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="<?php echo $socialInstagram?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="<?php echo $socialTikTok?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                         </ul>
                     </div>
                     <div class="booking-reviews">
@@ -17,17 +15,17 @@
                             <div class="ribbon"></div>
                             <span>4.0</span>
                         </div>
-                        <a href="#" target="_blank" class="br_link">
+                        <a href="<?php echo $bookingRedirect?>" target="_blank" class="br_link">
                             <div class="star-rating" data-starrating="4"> </div>
                             <p>Our ratings on Booking.com</p>
                         </a>
                     </div>
                     <div class="lang-wrap">
-                        <a id="en_title" class="language-select" onclick="changeLanguage('en')">EN</a>
+                        <a id="en_title" onclick="changeLanguage('en')">EN</a>
                         <span>/</span>
-                        <a id="al_title" class="language-select" onclick="changeLanguage('al')">AL</a>
+                        <a id="al_title" onclick="changeLanguage('al')">AL</a>
                         <span>/</span>
-                        <a id="it_title" class="language-select" onclick="changeLanguage('it')">IT</a>
+                        <a id="it_title" onclick="changeLanguage('it')">IT</a>
                     </div>
                 </div>
                 <!--  header-top end  -->

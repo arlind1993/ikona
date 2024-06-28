@@ -6,7 +6,7 @@ function singleMap() {
     }; 
     //  map settings ------------------	
     var single_map = new google.maps.Map(document.getElementById('singleMap'), {
-        zoom: 12,
+        zoom: 18,
         center: myLatLng,
         scrollwheel: false,
         zoomControl: false,
@@ -34,7 +34,7 @@ function singleMap() {
                 "featureType": "all",
                 "elementType": "labels.text.stroke",
                 "stylers": [{
-                        "visibility": "on"
+                        "visibility": "simplified"
                     },
                     {
                         "color": "#000000"
@@ -48,7 +48,9 @@ function singleMap() {
                 "featureType": "all",
                 "elementType": "labels.icon",
                 "stylers": [{
-                    "visibility": "off"
+                    "hue": "#808080" 
+                }, {
+                    "visibility": "simplified"
                 }]
             },
             {
@@ -88,6 +90,24 @@ function singleMap() {
                 ]
             },
             {
+                "featureType": "poi.business",
+                "elementType": "labels.text",
+                "stylers": [
+                    { "visibility": "simplified" },
+                    { "minZoom": 18 },
+                    { "weight": 1 }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text",
+                "stylers": [
+                    { "visibility": "simplified" },
+                    { "minZoom": 18 },
+                    { "weight": 1 }
+                ]
+            },
+            {
                 "featureType": "poi",
                 "elementType": "geometry",
                 "stylers": [{
@@ -107,6 +127,20 @@ function singleMap() {
                     {
                         "lightness": 17
                     }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "labels",
+                "stylers": [
+                    { "visibility": "off" }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels",
+                "stylers": [
+                    { "visibility": "off" }
                 ]
             },
             {

@@ -12,11 +12,10 @@ $(window).ready(function() {
 
       // Function to change language
       window.changeLanguage = function(lang) {
-        console.log(lang);
         Cookies.set('language', lang, { expires: 31 }); // Save the language preference for 7 days
         loadLanguage(lang);
         $('.act-lang').removeClass('act-lang'); // Remove active class from the current active language
-        $('a#language-select').addClass('act-lang'); // Add active class to the selected language
+        $('#'+lang+'_title').addClass('act-lang'); // Add active class to the selected language
       };
 
       // Check for a saved language preference in cookies

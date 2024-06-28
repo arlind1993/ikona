@@ -29,9 +29,9 @@
                                     <div class="footer-widget-content">
                                         <div class="footer-contacts footer-box">
                                             <ul>
-                                                <li><span>Call :</span><a href="#">+355 68 454 4403</li>
-                                                <li><span>Write  :</span><a href="#">hotelikona@gmail.com</a></li>
-                                                <li><span>Find us : </span><a href="#">3G98+2RQ, Rruga G'juhadol, Shkodër, Albania</a></li>
+                                                <li><span>Call :</span><a target="_blank" href="<?php echo "tel:".$phoneNumber ?>"href="#"><?php echo $phoneNumber?></li>
+                                                <li><span>Write  :</span><a href="<?php echo "mailto:".$email?>"><?php echo $email?></a></li>
+                                                <li><span>Find us : </span><a target="_blank" href="<?php echo $mapRedirect?>"><?php echo $address?></a></li>
                                             </ul>
                                         </div>
                                         <a href="#contactform" class="footer-widget-content-link"><span>Get in Touch</span></a>                                                    	
@@ -46,7 +46,6 @@
                                     <div class="footer-widget-content">
                                         <div class="footer-list footer-box  ">
                                             <ul>
-                                                =
                                                 <li><a href="#sec4">Rooms</a></li>
                                                 <li><a href="#contactform">Contacts</a></li>
                                                 <li><a href="#sec2">About</a></li>
@@ -82,10 +81,9 @@
             <div class="footer-social">
                 <div class="container">
                     <ul>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                        
+                        <li><a href="<?php echo $socialInstagram?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="<?php echo $socialTikTok?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                     </ul>
                 </div>
             </div>

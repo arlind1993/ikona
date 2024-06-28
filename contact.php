@@ -114,7 +114,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="map-container  mapC_vis">
-                                    <div id="singleMap" class="fs-wrapper" data-latitude="40.7427837" data-longitude="-73.11445617"></div>
+                                    <div id="singleMap" class="fs-wrapper" data-latitude="42.0675977" data-longitude="19.516481"></div>
                                     <div class="scrollContorl"></div>
                                 </div>
                             </div>

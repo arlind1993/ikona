@@ -1,5 +1,14 @@
 <?php
-    $mapApi = "AIzaSyDXrqUc7k84GZ0W6P5sMFrKFMVIdN-Nd0w";
+    $deb = "AIzaSyDtg0MNeH1GYaiooHcUNNQac3Nyewma9bw";//null;
+    $mapApi = $deb ?? "AIzaSyCubqC3XFVAVPewPQPtUDmPXGETWLebz0";
+    $phoneNumber = "+355 68 454 4403";
+    $address = "Rruga Gjuhadol, Shkodër, Albania";
+    $mapRedirect = "https://maps.app.goo.gl/7ZzwRrYkHZ9WDQQS7";
+    $email = "hotelikona@gmail.com";
+    $bookingRedirect = "https://www.booking.com/Share-QKiRkoe";
+    $socialInstagram = "https://www.instagram.com/hotel.ikona/";
+    $socialTikTok = "https://www.tiktok.com/@hotel.ikona";
+
     function generateHead($title) {
         // Generate the HTML content
         $html = '
