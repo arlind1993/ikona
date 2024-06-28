@@ -669,12 +669,12 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!--testi-item-->
                                     <div class="swiper-slide">
                                         <div class="testi-item">
-                                            <div class="testi-avatar"><img src="images/avatar/1.jpg" alt=""></div>
+                                            <div class="testi-avatar"><img src="images/avatar/avatar.jpg" alt=""></div>
                                             <div class="testimonilas-text">
                                                 <div class="testimonilas-text-item">
-                                                    <h3>Andy Dimasky</h3>
+                                                    <h3>Danijela</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                                    <p>"Very friendly staff. Enjoyed the breakfast. Very central. Stayed longer than intended due to crashing my bicycle... everyone was very helpful."</p>
                                                     <a href="#" class="testi-link" target="_blank">Via Booking.com</a>
                                                 </div>
                                                 <span class="testi-number">01.</span>
@@ -686,13 +686,13 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!--testi-item-->
                                     <div class="swiper-slide">
                                         <div class="testi-item">
-                                            <div class="testi-avatar"><img src="images/avatar/1.jpg" alt=""></div>
+                                            <div class="testi-avatar"><img src="images/avatar/avatar.jpg" alt=""></div>
                                             <div class="testimonilas-text">
                                                 <div class="testimonilas-text-item">
-                                                    <h3>Jannet Dellov</h3>
+                                                    <h3>Sultan</h3>
                                                     <div class="star-rating" data-starrating="4"> </div>
-                                                    <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
-                                                    <a href="#" class="testi-link" target="_blank">Via hotels.com</a>													
+                                                    <p>"Frankly a nice place close to the market place I recommend it for accommodation because it is close to everything that does not need a car and the staff are nice and understanding everyone tries to help you anywhere just ask the answer for all"</p>
+                                                    <a href="#" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">02.</span>
                                                 <div class="testi-item-dec fs-wrapper"></div>
@@ -703,12 +703,12 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!--testi-item-->
                                     <div class="swiper-slide">
                                         <div class="testi-item">
-                                            <div class="testi-avatar"><img src="images/avatar/1.jpg" alt=""></div>
+                                            <div class="testi-avatar"><img src="images/avatar/avatar.jpg" alt=""></div>
                                             <div class="testimonilas-text">
                                                 <div class="testimonilas-text-item">
-                                                    <h3>Centa Simpson</h3>
+                                                    <h3>Oswald</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                                    <p>"Inovative and welcoming structure. The location was close to the center with internal parking. The value for money."</p>
                                                     <a href="#" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">03.</span>
@@ -720,13 +720,13 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                     <!--testi-item-->
                                     <div class="swiper-slide">
                                         <div class="testi-item">
-                                            <div class="testi-avatar"><img src="images/avatar/1.jpg" alt=""></div>
+                                            <div class="testi-avatar"><img src="images/avatar/avatar.jpg" alt=""></div>
                                             <div class="testimonilas-text">
                                                 <div class="testimonilas-text-item">
-                                                    <h3>Nicolo Svensky</h3>
+                                                    <h3>Armando</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
-                                                    <a href="#" class="testi-link" target="_blank">Via hotels.com</a>													
+                                                    <p>"Central location. Breakfast was excellent. Very friendly staff. Very new facilities. "</p>
+                                                    <a href="#" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">04.</span>
                                                 <div class="testi-item-dec fs-wrapper"></div>
