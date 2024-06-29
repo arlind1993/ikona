@@ -11,7 +11,7 @@ $genereateRoom = function (string $roomId): string{
                 <img src="'.getImage($roomObject).'" alt="">
             </div>
             <div class="grid-item-details">
-                <h3><a href="room-single3.php?room='.$roomId.'">Couples Delight</a>  </h3>
+                <h3><a href="room-single3.php?room='.$roomId.'">'.getName($roomObject).'</a>  </h3>
                 <p>'.getMiniDescription($roomObject).'</p>
                 <div class="room-card-details">
                     <ul>
@@ -21,7 +21,7 @@ $genereateRoom = function (string $roomId): string{
                 <div class="grid-item_price">
                     <span>'.getPrice($roomObject).'</span>
                 </div>
-                <a href="room-single3.php?room='.$roomId.'" class="gid_link room-link" data-id="'.$roomId.'"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                <a href="room-single3.php?room='.$roomId.'" class="gid_link room-link" id="view_details" data-id="'.$roomId.'"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
             </div>
         </div>
         ';
@@ -37,8 +37,8 @@ $genereateRoom = function (string $roomId): string{
                     <div class="content-dec2 fs-wrapper"></div>
                     <div class="section-dec"></div>
                     <div class="section-title">
-                        <h4>Enjoy your time in our Hotel with pleasure.</h4>
-                        <h2>Take a look at the rooms that we offer.</h2>
+                        <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                        <h2 id="take_a_look">Take a look at the rooms that we offer.</h2>
                         <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                     </div>
                    
@@ -49,7 +49,7 @@ $genereateRoom = function (string $roomId): string{
                             <div class="text-block">
                                 <!-- gallery start -->
                                 <div class="gallery-items grid-big-pad  lightgallery  ">
-                                    <?php echo join("/n", array_map($genereateRoom, [
+                                    <?php echo join("\n", array_map($genereateRoom, [
                                         "couples_delight", 
                                         "solo_serenity",
                                         "family",

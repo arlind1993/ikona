@@ -10,7 +10,7 @@ $rooms = [
         "capacity" => 1,
         "bath" => 1,
         "single_bed" => 1,
-        "mini_description" => "For solo travelers , we invite you to experience rest and relaxation in our single rooms. Wake up to the serene beauty of blooming flowers right outside your window.",
+        "mini_description" => "For solo travelers , we invite you to experience rest and relaxation in our single rooms. Wake up to the serene beauty of blooming flowers right outside your window.<br><br>",
         "description" => [
             "Welcome to our elegantly designed Solo Serenity Room, where modern rustic charm harmonizes with contemporary elegance to create a perfect haven for solo travelers. This room, ideal for those seeking a peaceful retreat, offers a plush twin-sized bed in an intimate space perfect for relaxation and luxury. Soft ambient lighting sets a serene mood, perfect for unwinding after a day of adventure. Our design, incorporating modern elements with wood accents, captures the essence of balance between the bustling modern world and the serenity of nature, reflecting the natural beauty of Shkodra and adding an authentic local touch to your stay.",
             "For those with an adventurous spirit, our room provides stunning views and direct access to the garden, inviting you to immerse yourself in the vibrant flora and tranquility just outside your door. Enjoy the convenience of air conditioning and a room refrigerator to keep your favorite beverages and snacks chilled. With ample storage space for your belongings, a dedicated desk for any work you might need to catch up on, and reliable internet access, we cater to all your needs. Our 24-hour room service is always available to ensure that your requests are met promptly, at any time of day or night.",
@@ -51,10 +51,8 @@ $rooms = [
     'couples_delight' => [
         "name" => "Couples Delight Room",
         "price" => 60,
-        "capacity" => 5,
-        "single_bed" => 1,
+        "capacity" => 2,
         "double_bed" => 1,
-        "bunk_bed" => 1,
         "bath" => 1,
         "mini_description" => "For the perfect stay with your special someone, we provide a room featuring a queen bed, a workspace for catching up on work, ample storage for your belongings, and a private bathroom.",
         "description" => [
@@ -97,7 +95,7 @@ $rooms = [
         "single_bed" => 1,
         "double_bed" => 1,
         "bath" => 1,
-        "mini_description" => "Traveling with family? Our spacious room includes a queen-sized bed and a twin-sized bed, ensuring a comfortable and enjoyable stay for everyone.",
+        "mini_description" => "Traveling with family? Our spacious room includes a queen-sized bed and a twin-sized bed, ensuring a comfortable and enjoyable stay for everyone.<br><br>",
         "description" => [
             "Welcome to our elegantly designed hotel room, where modern rustic charm meets contemporary comfort. We know that traveling as a family can be tiring, and we want to offer you the best place to relax and rest. This serene space features a queen-sized bed and a twin-sized bed, making it ideal for families. The soft ambient lighting creates a calming atmosphere, perfect for unwinding after a busy day. The combination of modern design and wood accents aims to illustrate the harmony between our contemporary world and our connection to nature. Nature is very important for the citizens of Shkodra, so we tried to bring every prism, to make the experience more authentic.",
             "Enjoy the convenience of air conditioning and a room refrigerator to keep your beverages and snacks fresh. There's ample storage space for your belongings and a dedicated desk for catching up on work, supported by reliable internet access. Our 24-hour room service ensures that all your needs are met at any time, day or night.",
