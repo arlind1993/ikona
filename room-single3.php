@@ -1,5 +1,6 @@
 
 
+<?php require_once "room-info.php"?>
 <?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -8,11 +9,8 @@
         <?php require_once "loader.php"?>
         <!--  main   -->
         <div id="main">
-            <?php require_once "header.php"?>
-            <?php require_once "room_info.php"?>
-
-
-            <!-- Main -->
+        <?php require_once "header.php"?>
+            <!-- Main --> 
             <div id="room-single" >
                     <!--  section  -->
                         <div class="content-section parallax-section hero-section hidden-section">
@@ -66,20 +64,18 @@
                                                 <div class="text-block-title">
                                                     <h4>About Accommodation</h4>
                                                     <div class="sr-opt">
-                                                        <!-- Cmimi -->
-                                                        <div class="sa-price">€<?php echo $price?>/Night</div>
+                                                        <div class="sa-price"><?php echo $price?></div>
                                                     </div>
                                                 </div>
                                                 <div class="room-card-details rcd-single">
                                                     <ul>
-                                                        <!-- inventari -->
-                                                        <?php echo $inventory?>
+                                                        <?php echo $features?>
                                                     </ul>
                                                 </div>
                                                 <div class="text-block-container">
-                                                    <!-- pershkrimi -->
-                                                    <?php echo $description?>
-                                                
+                                                    <p class="has-drop-cap">
+                                                        <?php echo $description?>
+                                                    </p>
                                                 </div>
                                                 <div class="tbc-separator"></div>
                                                 <div class="tbc_subtitle">Gallery of Elegance  </div>
@@ -121,7 +117,6 @@
                                                         <div class="tbc_subtitle">What  included in this suite?</div>
                                                         <div class="text-block_list">
                                                             <ul>
-                                                            
                                                                 <li>Bathroom with rain shower</li>
                                                                 <li>Private balcony</li>
                                                                 <li>Terrace and Bar</li>
