@@ -46,9 +46,9 @@
                                     <div class="footer-widget-content">
                                         <div class="footer-list footer-box  ">
                                             <ul>
-                                                <li><a href="onepage.php#sec4">Rooms</a></li>
-                                                <li><a href="onepage.php#contactform">Contacts</a></li>
-                                                <li><a href="onepage.php#sec2">About</a></li>
+                                                <li><a href="onepage.php#rooms">Rooms</a></li>
+                                                <li><a href="onepage.php#contact">Contacts</a></li>
+                                                <li><a href="onepage.php#about-us">About</a></li>
                                             </ul>
                                         </div>
                                     </div>

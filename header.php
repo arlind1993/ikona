@@ -48,9 +48,9 @@
                                     </ul> -->
                                     <!--second level end-->
                                 </li>
-                                <li><a href="about.php">About</a></li>
+                                <li><a href="onepage.php#about-us">About</a></li>
                                 <li>
-                                    <a href="room-single.php">Rooms</a>
+                                    <a href="onepage.php#rooms">Rooms</a>
                                     <!--second level -->
                                     <!-- <ul>
                                         <li><a href="rooms.php">Rooms 1</a></li>

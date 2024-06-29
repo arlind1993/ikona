@@ -22,7 +22,7 @@
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                                             <h2>Welcome to Ikona Hotel</h2>
                                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                            <a href="#sec2" class="stg_link custom-scroll-link">Start Explore</a>
+                                            <a href="#about-us" class="stg_link custom-scroll-link">Start Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@
                                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
                                             <h2>Experience Shkodran’s culture</h2>
                                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                            <a href="#sec4" class="stg_link custom-scroll-link">View  Room Details</a>
+                                            <a href="#rooms" class="stg_link custom-scroll-link">View  Room Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@
                 </div>
                 <!--breadcrumbs-wrap end  -->
                 <!-- section   -->
-                <div class="content-section" id="sec2">
+                <div class="content-section" id="about-us">
                     <div class="section-dec"></div>
                     <div class="container">
                         <div class="row">
@@ -125,14 +125,14 @@
                                         We invite you to immerse yourself in the local culture and live like a citizen of Shkodra, 
                                         even if just for a few days. </br>
 
-Our unique modern rustic design sets us apart from other hotels. 
-By blending contemporary elements with natural materials, we create a warm and inviting atmosphere that reflects the charm of Shkodra. 
-Combined with our carefully designed ambient lighting, we aim to provide the most comfortable and relaxing experience for our guests.
-<br>
-Our commitment to cleanliness and hospitality is unwavering. We strive to be the best in these areas, ensuring that every corner of our hotel is spotless and every guest feels warmly welcomed.
-Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward to making your stay unforgettable.
-   </p>
-                                    <a href="#sec3" class="btn fl-btn custom-scroll-link">View Our Services</a>
+                                        Our unique modern rustic design sets us apart from other hotels. 
+                                        By blending contemporary elements with natural materials, we create a warm and inviting atmosphere that reflects the charm of Shkodra. 
+                                        Combined with our carefully designed ambient lighting, we aim to provide the most comfortable and relaxing experience for our guests.
+                                        <br>
+                                        Our commitment to cleanliness and hospitality is unwavering. We strive to be the best in these areas, ensuring that every corner of our hotel is spotless and every guest feels warmly welcomed.
+                                        Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward to making your stay unforgettable.
+                                        </p>
+                                    <a href="#services" class="btn fl-btn custom-scroll-link">View Our Services</a>
                                     <div class="dc_dec-item_left"><span></span></div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 </div>
                 <!-- section end  -->				
                 <!-- section   -->
-                <div class="content-section" id="sec3">
+                <div class="content-section" id="services">
                     <div class="container">
                         <div class="section-title">
                             <h4>Enjoy your time in our Hotel with pleasure.</h4>
@@ -257,7 +257,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                             <div class="dc_dec-item_left"><span></span></div>
                             <div class="dc_dec-item_right"><span></span></div>
                         </div>
-                        <a href="contact.php"   class="dwonload_btn">Get In touch With Us</a>
+                        <a href="#contact"   class="dwonload_btn">Get In touch With Us</a>
                         <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
                         <div class="sc-dec2" style="right: -220px; top: -100px;"></div>
                     </div>
@@ -419,7 +419,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 <!-- section end  -->					
                 			
                 <!-- section   -->
-                <div class="content-section" id="sec4">
+                <div class="content-section" id="rooms">
                     <div class="content-dec2 fs-wrapper"></div>
                     <div class="section-dec"></div>
                     <div class="section-title">
@@ -441,7 +441,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <img  src="images/room/couple.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Couples Delight</a>  </h3>
+                                            <h3><a href="room-single3.php?room=couplesDelight">Couples Delight</a>  </h3>
                                             <p>For the perfect stay with your special someone, we provide a room featuring a queen bed, a workspace for catching up on work, ample storage for your belongings, and a private bathroom. </p>
                                             <div class="room-card-details">
                                                 <ul>
@@ -451,32 +451,32 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€60/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=couplesDelight" class="gid_link room-link" data-id="couplesDelight"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->
                                     <!-- gallery-item-->
                                     <div class="gallery-item seafood">
                                         <div class="grid-item-holder hov_zoom">
-                                            <img  src="images/room/garden.jpg"    alt="">
+                                            <img  src="images/room/solo.jpeg"    alt="">
                                             
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Garden Panorama</a></h3>
-                                            <p>For couples and solo travelers alike, we invite you to experience our garden view rooms. Wake up to the serene beauty of blooming flowers right outside your window.</p><br><br>
+                                            <h3><a href="room-single3.php?room=soloSerenity">Solo Serenity</a></h3>
+                                            <p>For solo travelers , we invite you to experience rest and relaxation in our single rooms. Wake up to the serene beauty of blooming flowers right outside your window.</p><br><br>
                                             <div class="room-card-details">
                                                 <ul>
-                                                    <li><i class="fa-light fa-user"></i><span>2 Guest</span></li>
+                                                    <li><i class="fa-light fa-user"></i><span>1 Guest</span></li>
                                                     <li><i class="fa-light fa-bed-front"></i><span>1 Bed</span></li>
                                                     <li><i class="fa-light fa-bath"></i><span>1 Bath</span></li>
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€49/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=soloSerenity" class="gid_link room-link" data-id="soloSerenity"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->
@@ -487,7 +487,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Family Room</a>  </h3>
+                                            <h3><a href="room-single3.php?room=family">Family Room</a>  </h3>
                                             <p>Traveling with family? Our spacious room includes a queen-sized bed and a twin-sized bed, ensuring a comfortable and enjoyable stay for everyone. </p>
                                             <br><br>
                                             <div class="room-card-details">
@@ -499,9 +499,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€80/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=family" class="gid_link room-link" data-id="family"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->
@@ -511,7 +511,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <img  src="images/room/family-deluxe.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Family Deluxe Room </a></h3>
+                                            <h3><a href="room-single3.php?room=familyDeluxe">Family Deluxe Room </a></h3>
                                             <p>Traveling as a big family is always a hassle. Let us help you! The Family Deluxe Room includes one queen bed, one twin bed and one bunk bed, and a capacity of holding 5 persons.</p>
                                             <div class="room-card-details">
                                                 <ul>
@@ -523,9 +523,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€110/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=familyDeluxe" class="gid_link room-link" data-id="familyDeluxe"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->					
@@ -535,7 +535,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <img  src="images/room/trio.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Trios Retreat</a>  </h3>
+                                            <h3><a href="room-single3.php?room=triosRetreat">Trios Retreat</a>  </h3>
                                             <p>Having a trio vacation with your friends? Reserve now the Trios Retreat room, where each one gets a twin bed, enough storage space for your belongings and a private bathroom.  </p>
                                             <div class="room-card-details">
                                                 <ul>
@@ -545,9 +545,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€80/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=triosRetreat" class="gid_link room-link" data-id="triosRetreat"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->
@@ -557,7 +557,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                             <img  src="images/room/duos.jpg"    alt="">
                                         </div>
                                         <div class="grid-item-details">
-                                            <h3><a href="room-single.php">Duo's Comfort Room</a></h3>
+                                            <h3><a href="room-single3.php?room=duosComfort">Duo's Comfort Room</a></h3>
                                             <p>Duo's Room for every dynamic duo. Where you can find 2 twin beds, individual storage space and a private bathroom. Enjoy your stay in the beautiful city of Shkodra, carefree.</p>
                                             <div class="room-card-details">
                                                 <ul>
@@ -567,9 +567,9 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                                                 </ul>
                                             </div>
                                             <div class="grid-item_price">
-                                                <span>$XXX/Night</span>
+                                                <span>€60/Night</span>
                                             </div>
-                                            <a href="room-single.php" class="gid_link"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                                            <a href="room-single3.php?room=duosComfort" class="gid_link room-link" data-id="duosComfort"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
                                         </div>
                                     </div>
                                     <!-- gallery-item end-->										
@@ -583,7 +583,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 <!-- section end  -->
              
                 <!-- section   -->
-                <div class="content-section dark-bg parallax-section no-padding" id="sec6">
+                <div class="content-section dark-bg parallax-section no-padding" id="ambients">
                     <div class="row">
                         <div class="st-gallery">
                             <div class="section-title">
@@ -651,7 +651,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 </div>
                 <!-- section end  -->					
                 <!-- section   -->
-                <div class="content-section" id="sec7">
+                <div class="content-section" id="testimonials">
                     <div class="container  ">
                         <div class="section-title">
                             <h4>What said about us</h4>
@@ -744,7 +744,7 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
                 </div>
                 <!-- section end  -->				
                 <!--  section  -->
-                <div class="content-section  parallax-section hidden-section dark-bg" data-scrollax-parent="true" id="sec8">
+                <div class="content-section  parallax-section hidden-section dark-bg" data-scrollax-parent="true" id="contact">
                     <div class="bg par-elem " data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '20%' }"></div>
                     <div class="overlay overlay-bold"></div>
                     <div class="container">
@@ -853,5 +853,6 @@ Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward t
         </div>
         <!-- Main end -->
         <?php echo generateScripts(['maps'=> true])?>
+
     </body>
 </html>

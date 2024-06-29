@@ -20,6 +20,7 @@
             <!--=============== css  ===============-->	
             <link type="text/css" rel="stylesheet" href="css/plugins.css">
             <link type="text/css" rel="stylesheet" href="css/style.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <!--=============== favicons ===============-->
             <link rel="shortcut icon" href="images/logo6.png">
         </head>
