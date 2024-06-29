@@ -606,31 +606,31 @@
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide hov_zoom">
                                                     <img src="images/room/garden.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                    <a href="images/room/garden.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                  <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
                                                     <img src="images/services/terrace.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                    <a href="images/services/terrace.jpg"class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
                                                     <img src="images/room/couple.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                    <a href="images/room/couple.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                  <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
                                                     <img src="images/services/garden.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                    <a href="images/services/garden.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                 <!-- swiper-slide-->
                                                 <div class="swiper-slide  hov_zoom">
                                                     <img src="images/room/duos.jpg" alt="">
-                                                    <a href="images/room/1.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
+                                                    <a href="images/room/duos.jpg" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>
                                                 </div>
                                                 <!-- swiper-slide end-->
                                                 
