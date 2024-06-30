@@ -265,11 +265,11 @@ function getImage($object){
 
 function getFeatures($object){
     $feature = "";
-    if(isset($object["capacity"])) $feature.= '<li><i class="fa-light fa-user"></i><span>'.$object["capacity"].' Guest'.($object["capacity"]==1?"": "s").'</span></li>';
-    if(isset($object["double_bed"])) $feature.= '<li><i class="fa-light fa-bed-front"></i><span>'.$object["double_bed"].' Bed'.($object["double_bed"]==1?"": "s").'</span></li>';
-    if(isset($object["single_bed"])) $feature.= '<li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span>'.$object["single_bed"].' Bed'.($object["single_bed"]==1?"": "s").'</span></li>';
-    if(isset($object["bunk_bed"])) $feature.= '<li><i class="fa-light fa-bed-bunk" style="color: #E2CBAD;"></i><span>'.$object["bunk_bed"].' Bed'.($object["bunk_bed"]==1?"": "s").'</span></li>';
-    if(isset($object["bath"])) $feature.= '<li><i class="fa-light fa-bath"></i><span>'.$object["bath"].' Bath'.($object["bath"]==1?"": "s").'</span></li>';
+    if(isset($object["capacity"])) $feature.= '<li><i class="fa-light fa-user"></i><span data-value="'.$object["capacity"].'" data-id="feature-guest-title">'.$object["capacity"].' Guest'.($object["capacity"]==1?"": "s").'</span></li>';
+    if(isset($object["double_bed"])) $feature.= '<li><i class="fa-light fa-bed-front"></i><span data-value="'.$object["double_bed"].'" data-id="feature-double-bed-title">'.$object["double_bed"].' Bed'.($object["double_bed"]==1?"": "s").'</span></li>';
+    if(isset($object["single_bed"])) $feature.= '<li><i class="fa-light fa-bed-empty" style="color: #E2CBAD;"></i><span data-value="'.$object["single_bed"].'" data-id="feature-single-bed-title">'.$object["single_bed"].' Bed'.($object["single_bed"]==1?"": "s").'</span></li>';
+    if(isset($object["bunk_bed"])) $feature.= '<li><i class="fa-light fa-bed-bunk" style="color: #E2CBAD;"></i><span data-value="'.$object["bunk_bed"].'" data-id="feature-bunk-bed-title">'.$object["bunk_bed"].' Bed'.($object["bunk_bed"]==1?"": "s").'</span></li>';
+    if(isset($object["bath"])) $feature.= '<li><i class="fa-light fa-bath"></i><span data-value="'.$object["bath"].'" data-id="feature-bath-title">'.$object["bath"].' Bath'.($object["bath"]==1?"": "s").'</span></li>';
     return $feature;
 }
 
@@ -288,12 +288,12 @@ $translateSuggestion = function(string $suggestion): string {
         return '
             <div class="item-related col-lg-4">
                 <a href="room-details.php?room='.$suggestion.'" class="item-related_img">
-                    <img src="'.getImage($suggestionObject).'" class="respimg"  alt="">
+                    <img src="'.getImage($suggestionObject).'" class="respimg" data-alt="img-alt-'.getImage($suggestionObject).'" alt="">
                     <div class="overlay"></div>
                     <span>View Details</span>
                 </a>
-                <h3><a href="room-details.php?room='.$suggestion.'">'.getName($suggestionObject).'</a></h3>
-                <span class="post-date post-price">'.getPrice($suggestionObject).'</span>
+                <h3><a href="room-details.php?room='.$suggestion.'" data-id="name-'.$suggestion.'">'.getName($suggestionObject).'</a></h3>
+                <span class="post-date post-price" data-value="'.$suggestionObject["price"].'" data-id="price-title">'.getPrice($suggestionObject).'</span>
                 <div class="room-card-details">
                     <ul>
                         '.getFeatures($suggestionObject).'
@@ -310,7 +310,7 @@ $translatePhotos = function(array $photoData): string {
     return '
         <div class="gallery-item'.(isset($photoData["extra"]) ? " ".$photoData["extra"] : "").'">
             <div class="grid-item-holder hov_zoom">
-                <img src="'.(isset($photoData["src"])? $photoData["src"] :"404.jpg").'" alt="'.(isset($photoData["alt"])? $photoData["alt"] :"").'">
+                <img src="'.(isset($photoData["src"])? $photoData["src"] :"404.jpg").'" data-alt="image-alt-'.$photoData["alt"].'" alt="'.(isset($photoData["alt"])? $photoData["alt"] :"").'">
                 <a href="'.(isset($photoData["src"])? $photoData["src"] :"404.jpg").'" class="box-media-zoom popup-image"><i class="fa fa-search"></i></a>
             </div>
         </div>

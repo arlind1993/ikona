@@ -9,7 +9,7 @@
     "mini-description-solo_serenity": "For solo travelers , we invite you to experience rest and relaxation in our single rooms. Wake up to the serene beauty of blooming flowers right outside your window.<br><br>",
     "mini-description-couples_delight": "For the perfect stay with your special someone, we provide a room featuring a queen bed, a workspace for catching up on work, ample storage for your belongings, and a private bathroom.",
     "mini-description-family": "Traveling with family? Our spacious room includes a queen-sized bed and a twin-sized bed, ensuring a comfortable and enjoyable stay for everyone.<br><br>",
-    "mini-description-family_deluxe": "Welcome to our beautifully designed Family Deluxe Room, where modern rustic charm seamlessly blends with contemporary comfort. Understanding the exhaustion that comes with family travel, we strive to provide the perfect sanctuary for relaxation and rest. This tranquil space features a queen-sized bed, a twin-sized bed, and a bunk bed, comfortably accommodating up to five guests. The soft ambient lighting fosters a soothing atmosphere, ideal for unwinding after a long day. Our design, combining modern elements with wood accents, reflects the balance between our fast-paced world and the natural environment, a homage to the importance of nature in Shkodra, bringing an authentic local experience to your stay.",
+    "mini-description-family_deluxe": "Traveling as a big family is always a hassle. Let us help you! The Family Deluxe Room includes one queen bed, one twin bed and one bunk bed, and a capacity of holding 5 persons.",
     "mini-description-trios_retreat": "Having a trio vacation with your friends? Reserve now the Trios Retreat room, where each one gets a twin bed, enough storage space for your belongings and a private bathroom.",
     "mini-description-duos_comfort": "Duo's Room for every dynamic duo. Where you can find 2 twin beds, individual storage space and a private bathroom. Enjoy your stay in the beautiful city of Shkodra, carefree.",
 
@@ -32,5 +32,9 @@
     "feature-bath": "Bath", 
     "feature-bath^": "Baths", 
     "feature-bath-title": "${data-value} ${data-value==1?feature-bath:feature-bath^}",
-     
+    
+    "image-alt-images/services/garden.jpg": "",
+    "room-subtitle": "Enjoy your time in our Hotel with pleasure.",
+    "room-see":"Take a look at the rooms that we offer.",
+    "room-view":"View Details"
 }
