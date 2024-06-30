@@ -17,7 +17,7 @@
                                         a delightful stay for all those who wish to explore the beautiful city of Shkodra.
                                          Our mission is to provide exceptional service, ensuring that each guest experiences
                                           the rich culture and warm hospitality of Shkodra... </p>
-                                        <a href="#sec2" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
+                                        <a href="index.php#about-us" class="footer-widget-content-link"><span>Read more</span></a>                                                    	
                                     </div>
                                 </div>
                             </div>
@@ -46,42 +46,22 @@
                                     <div class="footer-widget-content">
                                         <div class="footer-list footer-box  ">
                                             <ul>
-                                                <li><a href="onepage.php#rooms">Rooms</a></li>
-                                                <li><a href="onepage.php#contact">Contacts</a></li>
-                                                <li><a href="onepage.php#about-us">About</a></li>
+                                                <li><a href="index.php#rooms">Rooms</a></li>
+                                                <li><a href="index.php#contact">Contacts</a></li>
+                                                <li><a href="index.php#about-us">About</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- footer-widget  end-->								
-                            <!-- footer-widget -->
-                            <!-- <div class="col-lg-4">
-                                <div class="footer-widget">
-                                    <div class="footer-widget-title">Subscribe</div>
-                                    <div class="footer-widget-content">
-                                        <div class="subcribe-form">
-                                            <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-                                            <form id="subscribe">
-                                                <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
-                                                <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Send </button>
-                                                <label for="subscribe-email" class="subscribe-message"></label>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- footer-widget  end-->
                         </div>
-                    </div>
-                    <!-- footer-widget-wrap end-->					
+                    </div>				
                 </div>
                 <div class="footer-title-dec">Hotel Ikona</div>
             </div>
             <div class="footer-social">
                 <div class="container">
                     <ul>
-                        
                         <li><a href="<?php echo $socialInstagram?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="<?php echo $socialTikTok?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                     </ul>

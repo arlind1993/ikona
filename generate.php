@@ -9,7 +9,7 @@
     $socialInstagram = "https://www.instagram.com/hotel.ikona/";
     $socialTikTok = "https://www.tiktok.com/@hotel.ikona";
 
-    function generateHead($title) {
+    function generateHead($title = "Ikona Hotel", $comming = false) {
         // Generate the HTML content
         $html = '
         <head>
@@ -20,7 +20,8 @@
             <!--=============== css  ===============-->	
             <link type="text/css" rel="stylesheet" href="css/plugins.css">
             <link type="text/css" rel="stylesheet" href="css/style.css">
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            '.($comming ? '<link type="text/css" rel="stylesheet" href="css/cs-style.css">'
+                        :'<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>').'
             <!--=============== favicons ===============-->
             <link rel="shortcut icon" href="images/logo6.png">
         </head>

@@ -287,12 +287,12 @@ $translateSuggestion = function(string $suggestion): string {
         $suggestionObject = $rooms[$suggestion];
         return '
             <div class="item-related col-lg-4">
-                <a href="room-single3.php?room='.$suggestion.'" class="item-related_img">
+                <a href="room-details.php?room='.$suggestion.'" class="item-related_img">
                     <img src="'.getImage($suggestionObject).'" class="respimg"  alt="">
                     <div class="overlay"></div>
                     <span>View Details</span>
                 </a>
-                <h3><a href="room-single3.php?room='.$suggestion.'">'.getName($suggestionObject).'</a></h3>
+                <h3><a href="room-details.php?room='.$suggestion.'">'.getName($suggestionObject).'</a></h3>
                 <span class="post-date post-price">'.getPrice($suggestionObject).'</span>
                 <div class="room-card-details">
                     <ul>
@@ -342,8 +342,8 @@ if(isset($roomObject)){
     $suggestions = getSuggestions($roomObject);
     $images = getPhotos($roomObject);
 }else{
-    if(strpos($_SERVER['PHP_SELF'], "room-single3.php")!== false){
-        header("Location: onepage.php#rooms");
+    if(strpos($_SERVER['PHP_SELF'], "room-details.php")!== false){
+        header("Location: index.php#rooms");
         exit();
     }
 }

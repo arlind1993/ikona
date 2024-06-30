@@ -34,7 +34,8 @@
                 <!-- breadcrumbs-wrap  -->
                 <div class="breadcrumbs-wrap">
                     <div class="container">
-                        <a href="onepage.php" id="home">Home</a><span id="restaurant">Restaurant</span> 
+                        <a href="index.php" id="home">Home</a>
+                        <span id="">Restaurant</span>
                     </div>
                 </div>
                 <!--breadcrumbs-wrap end  -->

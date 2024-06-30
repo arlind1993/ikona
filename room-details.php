@@ -26,7 +26,6 @@
                         <div class="container">
                             <div class="section-title">
                                 <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                                <!-- EMRI I DHOMES -->
                                 <h2> <?php echo $name?></h2>
                                 <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></span></div>
                             </div>
@@ -47,7 +46,9 @@
                         <!-- breadcrumbs-wrap  -->
                         <div class="breadcrumbs-wrap">
                             <div class="container">
-                                <a href="onepage.php" id="home">Home</a><a href="onepage.php#rooms" id="rooms">Rooms</a><span><?php echo $name?></span> 
+                                <a href="index.php" id="home">Home</a>
+                                <a href="index.php#rooms" id="rooms">Rooms</a>
+                                <span><?php echo $name?></span> 
                             </div>
                         </div>
                         <!--breadcrumbs-wrap end  -->

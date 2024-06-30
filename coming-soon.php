@@ -1,20 +1,8 @@
 <?php require_once "generate.php"?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Diamant - Hotel & Resort Booking  Template</title>
-        <!--=============== css  ===============-->	
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <link type="text/css" rel="stylesheet" href="css/cs-style.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
-    </head>
+    <?php echo generateHead("Ikona Hotel", true)?>
     <body>
-        <!-- lodaer  -->
         <div class="loader-wrap">
             <div class="loader-item">
                 <div class="cd-loader-layer" data-frame="25">
@@ -23,7 +11,6 @@
                 <span class="loader"><i class="fa-thin fa-gem"></i></span>
             </div>
         </div>
-        <!-- loader end  -->
         <!--  main   -->
         <div id="main">
             <!-- cs-content-container -->
@@ -47,10 +34,8 @@
                     <div class="clearfix"></div>
                     <div class="cs-social">
                         <ul>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="<?php echo $socialInstagram?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="<?php echo $socialTikTok?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -100,9 +85,9 @@
                 <div class="cs-contacts">
                     <div class="section-separator"><span><i class="fa-thin fa-gem"></i></span></div>
                     <ul>
-                        <li><span>Call :</span><a href="#">+489756412322</a></li>
-                        <li><span>Write  :</span><a href="#">yourmail@domain.com</a></li>
-                        <li><span>Find us : </span><a href="#">USA 27TH Brooklyn NY</a></li>
+                        <li><span>Call :</span><a target="_blank" href="<?php echo "tel:".$phoneNumber ?>"href="#"><?php echo $phoneNumber?></li>
+                        <li><span>Write  :</span><a href="<?php echo "mailto:".$email?>"><?php echo $email?></a></li>
+                        <li><span>Find us : </span><a target="_blank" href="<?php echo $mapRedirect?>"><?php echo $address?></a></li>
                     </ul>
                 </div>
                 <!-- cs-contacts end --> 
