@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="text-block tb-sin">
                                     <div class="dc_dec-item_left"><span></span></div>
-                                    <p class="has-drop-cap" id="restaurant description">
+                                    <p class="has-drop-cap" id="restaurant_description">
                                     Welcome to the culinary heart of Ikona Hotel, where we pride ourselves on offering an authentic Shkodran dining experience, a refreshing departure from the fast-paced lifestyle and food of the modern world. Our restaurant is dedicated to using only the freshest produce sourced directly from nearby villages. Every dish is a testament to our commitment to quality and tradition, featuring ingredients such as fresh village eggs, milk, and cottage cheese. Our homemade butter and jams add a unique touch to our breakfast offerings, which are included with your stay.
                                     <br>We take great care in selecting our meats, offering only the finest beef and fish, ensuring each meal is a delight to your palate. Our traditional desserts are crafted with love and care, providing a sweet end to your meal that echoes the flavors of our heritage.
                                     <br>At Ikona Hotel, dining is more than just a meal; it’s an experience. You can savor your food in a variety of settings—whether you choose the comfort of your room, the serene ambiance of our garden, the welcoming atmosphere of our restaurant, or the cityscape views from our terrace. Each location is designed to enhance your enjoyment and provide a tranquil escape.
@@ -130,7 +130,7 @@
 <div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
     <div class="fw-aminit-item-container">
         <h5 id="lunch_dinner">Lunch and Dinner</h5>
-        <h3 id="restaurant">The Restaurant</h3>
+        <h3 id="the_restaurant">The Restaurant</h3>
         <h6 id="restaurant_location">Location: Garden, Terrace, Restaurant</h6>
         <i class="fa-thin fa-salad"></i>
     </div>
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="section-title">
             <h4 id="special_selection">Special selection</h4>
-            <h2 id="discover_menu">Discover Our Menu</h2>
+            <h2 id="discover_menu" style="color:black;">Discover Our Menu</h2>
             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
         </div>
         <div class="tabs-act">
@@ -190,7 +190,7 @@
                                     <h6 id="eggs">Eggs</h6>
                                 </div>
                                 <div class="hero-menu-item-details">
-                                    <p id="eggs_desc">Enjoy the quality of fresh eggs, first thing in the morning!<br><br></p>
+                                    <p id="eggs_desc">Enjoy the quality of fresh eggs, first thing in the morning! Wether scrambled, sunny-side up, or boiled we are at your service.</p>
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
@@ -218,17 +218,6 @@
                             <!--hero-menu_item end-->
                             <!--hero-menu_item-->
                             <div class="hero-menu-item">
-                                <a href="images/menu/cherry_jam.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/cherry_jam.jpg" alt=""></a>
-                                <div class="hero-menu-item-title">
-                                    <h6 id="cherry_jam">Homemade cherry and apple Jams</h6>
-                                </div>
-                                <div class="hero-menu-item-details">
-                                    <p id="cherry_jam_desc">Try the seasons freshest jam. Made by our cooks!<br><br></p>
-                                </div>
-                            </div>
-                            <!--hero-menu_item end-->
-                            <!--hero-menu_item-->
-                            <div class="hero-menu-item">
                                 <a href="images/menu/juice.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/juice.jpg" alt=""></a>
                                 <div class="hero-menu-item-title">
                                     <h6 id="juice">Juices and Seasonal fruits</h6>
@@ -238,6 +227,18 @@
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
+                            <!--hero-menu_item-->
+                            <div class="hero-menu-item">
+                                <a href="images/menu/cherry_jam.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/cherry_jam.jpg" alt=""></a>
+                                <div class="hero-menu-item-title">
+                                    <h6 id="cherry_jam">Homemade cherry and apple Jams</h6>
+                                </div>
+                                <div class="hero-menu-item-details">
+                                    <p id="cherry_jam_desc">Try the seasons freshest jam. Made by our cooks!<br><br></p>
+                                </div>
+                            </div>
+                            <!--hero-menu_item end-->
+                            
                         </div>
                         <!--tab end-->
                         <!--tab -->
@@ -249,7 +250,8 @@
                                     <h6 id="potatoes">Fried and Baked Potatoes</h6>
                                 </div>
                                 <div class="hero-menu-item-details">
-                                    <p id="potatoes_desc">An addition which can never miss from a spread.<br><br></p>
+                                    <p id="potatoes_desc">An addition which can never miss from a spread. Enjoy our fresh potatos any way you like.</p>
+                                    
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
@@ -266,17 +268,6 @@
                             <!--hero-menu_item end-->
                             <!--hero-menu_item-->
                             <div class="hero-menu-item">
-                                <a href="images/menu/fish.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/fish.jpg" alt=""></a>
-                                <div class="hero-menu-item-title">
-                                    <h6 id="fish">Pescatarian dishes</h6>
-                                </div>
-                                <div class="hero-menu-item-details">
-                                    <p id="fish_desc">The fish we serve is sourced directly from the rivers Buna and Drini, as well as the lake of Shkodra, ensuring it's as fresh as it gets. Our menu features both grilled fish and our traditional Karp dish.</p>
-                                </div>
-                            </div>
-                            <!--hero-menu_item end-->
-                            <!--hero-menu_item-->
-                            <div class="hero-menu-item">
                                 <a href="images/menu/vegetables.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/vegetables.jpg" alt=""></a>
                                 <div class="hero-menu-item-title">
                                     <h6 id="vegetables">Fresh vegetables</h6>
@@ -286,6 +277,18 @@
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
+                            <!--hero-menu_item-->
+                            <div class="hero-menu-item">
+                                <a href="images/menu/fish.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/fish.jpg" alt=""></a>
+                                <div class="hero-menu-item-title">
+                                    <h6 id="fish">Pescatarian dishes</h6>
+                                </div>
+                                <div class="hero-menu-item-details">
+                                    <p id="fish_desc">The fish we serve is sourced directly from the rivers Buna and Drini, as well as the lake of Shkodra, ensuring it's as fresh as it gets. Our menu features both grilled fish and our traditional Karp dish.</p>
+                                </div>
+                            </div>
+                            <!--hero-menu_item end-->
+                            
                             <!--hero-menu_item-->
                             <div class="hero-menu-item">
                                 <a href="images/menu/salad.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/salad.jpg" alt=""></a>
@@ -319,7 +322,7 @@
                                     <h6 id="traditional_desserts">Traditional Desserts</h6>
                                 </div>
                                 <div class="hero-menu-item-details">
-                                    <p id="traditional_desserts_desc">Our Hotel serves homemade traditional desserts like revani, bakllava and so on.<br><br></p>
+                                    <p id="traditional_desserts_desc">Our Hotel serves homemade traditional desserts like revani, bakllava and so on. Taste the tradition!</p>
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
@@ -340,12 +343,23 @@
                             <!--hero-menu_item end-->
                             <!--hero-menu_item-->
                             <div class="hero-menu-item">
+                                <a href="images/menu/cocktail.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/cocktail.jpg" alt=""></a>
+                                <div class="hero-menu-item-title">
+                                    <h6 id="cocktails">Cocktails</h6>
+                                </div>
+                                <div class="hero-menu-item-details">
+                                    <p id="cocktails_desc">We you would like to try some other selection of spirits, our hotel offers several options.</p>
+                                </div>
+                            </div>
+                            <!--hero-menu_item end-->
+                            <!--hero-menu_item-->
+                            <div class="hero-menu-item">
                                 <a href="images/menu/wine.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/wine.jpg" alt=""></a>
                                 <div class="hero-menu-item-title">
                                     <h6 id="wine">Wine</h6>
                                 </div>
                                 <div class="hero-menu-item-details">
-                                    <p id="wine_desc">Taste the wine from the northern villages grapes. Known for its strong taste.<br><br></p>
+                                    <p id="wine_desc">Taste the wine from the northern villages grapes. Known for its strong taste.</p>
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
@@ -360,17 +374,7 @@
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
-                            <!--hero-menu_item-->
-                            <div class="hero-menu-item">
-                                <a href="images/menu/cocktail.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/cocktail.jpg" alt=""></a>
-                                <div class="hero-menu-item-title">
-                                    <h6 id="cocktails">Cocktails</h6>
-                                </div>
-                                <div class="hero-menu-item-details">
-                                    <p id="cocktails_desc">We you would like to try some other selection of spirits, our hotel offers several options.</p>
-                                </div>
-                            </div>
-                            <!--hero-menu_item end-->
+                            
                         
 
                                             <!--hero-menu_item end-->

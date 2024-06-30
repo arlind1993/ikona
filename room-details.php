@@ -47,7 +47,7 @@
                         <div class="breadcrumbs-wrap">
                             <div class="container">
                                 <a href="index.php" id="home">Home</a>
-                                <a href="index.php#rooms" id="rooms">Rooms</a>
+                                <a href="index.php#rooms" id="rooms_title">Rooms</a>
                                 <span><?php echo $name?></span> 
                             </div>
                         </div>
