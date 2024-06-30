@@ -258,7 +258,7 @@
                             <div class="dc_dec-item_left"><span></span></div>
                             <div class="dc_dec-item_right"><span></span></div>
                         </div>
-                        <a href="#contact"   class="dwonload_btn">Get In touch With Us</a>
+                        <a href="#contact"   class="dwonload_btn" id="get_in_touch_link">Get In touch With Us</a>
                         <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
                         <div class="sc-dec2" style="right: -220px; top: -100px;"></div>
                     </div>
@@ -403,15 +403,17 @@
                         <div class="sc-dec2" style="right:  220px; top: 50%;"></div>
                     </div>
                 </div>
-                <!-- section end  -->					
+                <!-- section end  -->	
+                <span id="rooms">				
                 <?php  require_once "room-section.php";?>
+                </span>
              
                 <!-- section   -->
                 <div class="content-section dark-bg parallax-section no-padding" id="ambients">
                     <div class="row">
                         <div class="st-gallery">
                             <div class="section-title">
-                            <h4 id="ambients_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                            <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
                             <h2 id="ambients_title">Our Ambients</h2>
                                 <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                             </div>
@@ -573,7 +575,7 @@
                     <div class="overlay overlay-bold"></div>
                     <div class="container">
                         <div class="section-title">
-                        <h4 id="contact_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                        <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
                         <h2 id="contact_title">Our Contacts</h2>
                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>

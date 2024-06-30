@@ -47,7 +47,7 @@
                         <!-- breadcrumbs-wrap  -->
                         <div class="breadcrumbs-wrap">
                             <div class="container">
-                                <a href="onepage.php" id="home">Home</a><a href="onepage.php#rooms" id="rooms">Rooms</a><span><?php echo $name?></span> 
+                                <a href="onepage.php" id="home">Home</a><a href="onepage.php#rooms" id="rooms_title">Rooms</a><span><?php echo $name?></span> 
                             </div>
                         </div>
                         <!--breadcrumbs-wrap end  -->

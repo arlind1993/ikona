@@ -3,7 +3,7 @@
                 <!--  header-top -->
 
                 <div class="header-top  fl-wrap">
-                    <div class="header-top_contacts"><a target="_blank" href="<?php echo "tel:".$phoneNumber ?>"><span id="call_title">Call:</span><?php echo " ".$phoneNumber?></a><a target="_blank" href="<?php echo $mapRedirect?>"><span>Find us:</span><?php echo " ".$address?></a></div>
+                    <div class="header-top_contacts"><a target="_blank" href="<?php echo "tel:".$phoneNumber ?>"><span id="call_title">Call:</span><?php echo " ".$phoneNumber?></a><a target="_blank" href="<?php echo $mapRedirect?>"><span id="find_us">Find us:</span><?php echo " ".$address?></a></div>
                     <div class="header-social">
                         <ul>
                             <li><a href="<?php echo $socialInstagram?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
@@ -17,7 +17,7 @@
                         </div>
                         <a href="<?php echo $bookingRedirect?>" target="_blank" class="br_link">
                             <div class="star-rating" data-starrating="4"> </div>
-                            <p>Our ratings on Booking.com</p>
+                            <p id="our_ratings">Our ratings on Booking.com</p>
                         </a>
                     </div>
                     <div class="lang-wrap">
@@ -36,36 +36,16 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="onepage.php" class="act-link">Home </a>
-                                    <!--second level -->
-                                    <!-- Nuk e hoqa ne rast se mos gabojme -->
-                                    <!-- <ul>
-                                        <li><a href="index.php">Style 1</a></li>
-                                        <li><a href="index2.php">Style 2</a></li>
-                                        <li><a href="index3.php">Style 3</a></li>
-                                        <li><a href="onepage.php">One Page</a></li>
-                                        <li><a href="coming-soon.php">Coming Soon</a></li>
-                                    </ul> -->
-                                    <!--second level end-->
+                                    <a href="onepage.php" class="act-link" id="home">Home </a>
+                              
                                 </li>
-                                <li><a href="onepage.php#about-us">About</a></li>
+                                <li><a href="onepage.php#about-us" id="about">About</a></li>
                                 <li>
-                                    <a href="onepage.php#rooms">Rooms</a>
-                                    <!--second level -->
-                                    <!-- <ul>
-                                        <li><a href="rooms.php">Rooms 1</a></li>
-                                        <li><a href="rooms2.php">Rooms 2</a></li>
-                                        <li><a href="rooms3.php">Rooms 3</a></li>
-                                        <li><a href="rooms4.php">Rooms 4</a></li>
-                                        <li><a href="room-single.php">Room single</a></li>
-                                        <li><a href="room-single2.php">Room single 2</a></li>
-                                        <li><a href="room-single3.php">Room single 3</a></li>
-                                    </ul> -->
-                                    <!--second level end-->
+                                    <a href="onepage.php#rooms" id="rooms">Rooms</a>
+                                   
                                 </li>
-                                <li><a href="restaurant.php">Restaurant</a></li>
-                                <li><a href="onepage.php#contact">Contact</a></li>
-                                <!-- <li><a href="blog.php">News</a></li> kjo nuk na nevojitet -->
+                                <li><a href="restaurant.php" id="restaurant">Restaurant</a></li>
+                                <li><a href="onepage.php#contact" id="contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -92,24 +72,14 @@
                             <div class="wish-list-item fl-wrap">
                                 <div class="wish-list-img"><a href="room-single.php"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
                                 </div>
-                                <div class="wish-list-descr">
-                                    <h4><a href="room-single.php">Garden Family Room</a></h4>
-                                    <div class="wish-list-price">$129/Night</div>
-                                    <a  href="room-single.php" class="wshil_link">Book Now</a>
-                                    <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                </div>
+                                
                             </div>
                             <!--wish-list-item end-->
                             <!--wish-list-item-->
                             <div class="wish-list-item fl-wrap">
                                 <div class="wish-list-img"><a href="room-single.php"><img src="images/room/thumbnail/1.jpg" alt=""></a>  
                                 </div>
-                                <div class="wish-list-descr">
-                                    <h4><a href="room-single.php">Premium Panorama Room</a></h4>
-                                    <div class="wish-list-price"> $230/Night</div>
-                                    <a  href="room-single.php" class="wshil_link">Book Now</a>
-                                    <div class="clear-wishlist"><i class="fa-regular fa-trash-can"></i></div>
-                                </div>
+                                
                             </div>
                             <!--wish-list-item end-->
                         </div>

@@ -4,7 +4,7 @@ $(window).ready(function() {
             Object.entries(data).map(([key, value])=>{
                 var text = $('#'+key)?.text();
                 if(text){
-                    $('#'+key)?.text(value);
+                    $('#'+key)?.html(value);
                 }
             });
         });
