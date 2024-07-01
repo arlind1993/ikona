@@ -334,7 +334,7 @@
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-circle-parking"></i>
                                         <h4 id="parking_title">Parking Space</h4>
-                                        <p id="parking_desc">Our hotel offers a private parking space for each reserved room, ensuring our clients won't have to worry about their vehicles.</p>
+                                        <p id="parking_desc">Our hotel offers a private parking space where you need to make a reservation to utilize, ensuring our clients won't have to worry about their vehicles.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">02.</span>
                                     </div>
