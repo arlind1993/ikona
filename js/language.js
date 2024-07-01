@@ -2,7 +2,10 @@ $(window).ready(function() {
 
     const languageJson = {}; 
 
+    console.log("sasasas");
     function loadLanguage(lang) {
+        
+        console.log(lang);
         new Promise((resolve, reject)=> {
             if(!(lang in languageJson)){
                 $.getJSON("languages/"+ lang + '.json', function(data) {
@@ -15,11 +18,17 @@ $(window).ready(function() {
             
         }).then((e)=>{
             const data = languageJson[lang];
+            console.log(data);
             for(key in data){
                 const value = data[key];
-                let deb = true;
+                let deb = false;
+                if(key == "bar_n_restaurant"){
+                    deb = true;
+                }
+
                 $('[data-id="'+key+'"]').each(function (){
                     
+                if(deb) console.log('HHHHHHH');
                     const messageParsed = parseMessage(data, value, $(this).data(), deb);
                     $(this).html(messageParsed);
                 });
@@ -136,7 +145,51 @@ $(window).ready(function() {
         $('#'+lang+'_title').addClass('act-lang');
     };
 
+    
+    function updateURIs(dataId) {
+        switch(lastSeenId) {
+            case 'home':
+                $('#home-link').attr('href', '#home-new');
+                break;
+            case 'about':
+                $('#about-link').attr('href', '#about-new');
+                break;
+            case 'contact':
+                $('#contact-link').attr('href', '#contact-new');
+                break;
+            default:
+                console.log('Unknown section id');
+        }
+    }
 
+    // Detect the last seen section and update URIs accordingly
+    $(window).on('scroll', function() {
+
+        const idToHeader = {
+            "#heading": "[date-id=home]",
+            "#about-us": "[date-id=about]",
+            "#services": "[date-id=about]",
+            "#more-about": "[date-id=about]",
+            "#room-single": "[date-id=rooms_title]",
+            "#rooms": "[date-id=rooms_title]",
+            "#ambients": "[date-id=rooms_title]",
+            "#testimonials": "[date-id=home]",
+            "#contact": "[date-id=contact]",
+            "#more-contact": "[date-id=contact]",
+            "[data-group-id=restaurant]": "[date-id=contact]",
+        }
+        
+        for(let key in idToHeader){
+            const value = idToHeader[key];
+            $(key).each(function() {
+                if ($(this).is(':visible')) {
+                    console.log("visible",$(this).attr('id'));
+                    $('.act-link').removeClass('act-link');
+                    $(value).addClass('act-link');
+                }
+            });
+        }
+    });
 
     var savedLang = Cookies.get('language');
     changeLanguage(savedLang ?? 'en');

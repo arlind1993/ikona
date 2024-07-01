@@ -5,7 +5,7 @@
     <body>
         <?php require_once "loader.php"?>
         <!--  main   -->
-        <div id="main">
+        <div id="main" data-group-id="restaurant">
             <?php require_once "header.php"?>
             <!--  section  -->
             <div class="content-section parallax-section hero-section hidden-section" data-scrollax-parent="true">

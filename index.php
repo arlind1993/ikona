@@ -8,7 +8,7 @@
         <div id="main">
             <?php require_once "header.php"?>
             <!--  section  -->
-            <div class="hero-wrap full-height dark-bg hidden-content" id="sec1">
+            <div class="hero-wrap full-height dark-bg hidden-content" id="heading">
                 <div class="fs-slider full-height fl-wrap">
                     <div class="swiper-container">
                         <div class="swiper-wrapper" >
@@ -155,7 +155,7 @@
                     <!-- section end  -->
                                 
                 <!-- section   -->
-                <div class="content-section" data-id="services">
+                <div class="content-section" id="services">
                     <div class="container">
                         <div class="section-title">
                             <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
@@ -267,7 +267,7 @@
                 </div>
                 <!-- section end  -->	
                 <!-- section   -->
-                <div class="content-section dark-bg hidden-section  wide-section" data-scrollax-parent="true">
+                <div class="content-section dark-bg hidden-section" id="more-about" wide-section" data-scrollax-parent="true">
                     <div class="bg" data-scrollax="properties: { translateY: '30%' }"></div>
                     <div class="overlay overlay-bold"></div>
                     <div class="dec-corner dc_rt"></div>
@@ -324,8 +324,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-light fa-desktop" style="color: #E2CBAD;"></i>
-                                        <h4 id="media_tech_title">Media & Technology</h4>
-                                        <p id="media_tech_desc">Each room in our hotel is equipped with a flat-screen TV, telephone, refrigerator, air conditioning, and other appliances to ensure your utmost comfort and convenience.</p>
+                                        <h4 data-id="media_tech_title">Media & Technology</h4>
+                                        <p data-id="media_tech_desc">Each room in our hotel is equipped with a flat-screen TV, telephone, refrigerator, air conditioning, and other appliances to ensure your utmost comfort and convenience.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">01.</span>
                                     </div>
@@ -333,8 +333,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-circle-parking"></i>
-                                        <h4 id="parking_title">Parking Space</h4>
-                                        <p id="parking_desc">Our hotel offers a private parking space where you need to make a reservation to utilize, ensuring our clients won't have to worry about their vehicles.</p>
+                                        <h4 data-id="parking_title">Parking Space</h4>
+                                        <p data-id="parking_desc">Our hotel offers a private parking space where you need to make a reservation to utilize, ensuring our clients won't have to worry about their vehicles.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">02.</span>
                                     </div>
@@ -342,8 +342,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-vacuum"></i>
-                                        <h4 id="room_service_title">Room Service</h4>
-                                        <p id="room_service_desc">We take pride in our 24-hour room service, always available for anything you may need.</p>
+                                        <h4 data-id="room_service_title">Room Service</h4>
+                                        <p data-id="room_service_desc">We take pride in our 24-hour room service, always available for anything you may need.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">03.</span>
                                     </div>
@@ -351,8 +351,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-wifi"></i>
-                                        <h4 id="wifi_title">Free WiFi</h4>
-                                        <p id="wifi_desc">Wi-Fi is available for all our clients, ensuring connectivity throughout their stay.</p>
+                                        <h4 data-id="wifi_title">Free WiFi</h4>
+                                        <p data-id="wifi_desc">Wi-Fi is available for all our clients, ensuring connectivity throughout their stay.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">04.</span>
                                     </div>
@@ -360,8 +360,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-light fa-croissant"></i>
-                                        <h4 id="breakfast_title">Free Breakfast</h4>
-                                        <p id="breakfast_desc">Every reservation includes breakfast, featuring local produce from cottage cheese from northern villages to homemade jams offered by our hotel.</p>
+                                        <h4 data-id="breakfast_title">Free Breakfast</h4>
+                                        <p data-id="breakfast_desc">Every reservation includes breakfast, featuring local produce from cottage cheese from northern villages to homemade jams offered by our hotel.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">05.</span>
                                     </div>
@@ -369,8 +369,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-thin fa-map-location-dot"></i>
-                                        <h4 id="travel_title">Travel suggestions</h4>
-                                        <p id="travel_desc">Our hotel partners with several Albanian travel agencies to suggest your next adventure or vacation spot.</p>
+                                        <h4 data-id="travel_title">Travel suggestions</h4>
+                                        <p data-id="travel_desc">Our hotel partners with several Albanian travel agencies to suggest your next adventure or vacation spot.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">06.</span>
                                     </div>
@@ -378,8 +378,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-solid fa-shield-halved" style="color: #E2CBAD;"></i>
-                                        <h4 id="security_title">Safety & Security</h4>
-                                        <p id="security_desc">For your peace of mind, the hotel has camera surveillance, ensuring the security of you and your belongings throughout your stay.</p>
+                                        <h4 data-id="security_title">Safety & Security</h4>
+                                        <p data-id="security_desc">For your peace of mind, the hotel has camera surveillance, ensuring the security of you and your belongings throughout your stay.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">07.</span>
                                     </div>
@@ -387,8 +387,8 @@
                                 <div class="col-lg-3">
                                     <div class="aminites-card-item">
                                         <i class="fa-light fa-utensils" style="color: #E2CBAD;"></i>
-                                        <h4 id="food_title">Food & Drinks</h4>
-                                        <p id="food_desc">We offer a variety of Shkodran dishes, using only local produce and ensuring all selections are halal. Additionally, we provide a range of drinks, from cocktails to local raki and wine.</p>
+                                        <h4 data-id="food_title">Food & Drinks</h4>
+                                        <p data-id="food_desc">We offer a variety of Shkodran dishes, using only local produce and ensuring all selections are halal. Additionally, we provide a range of drinks, from cocktails to local raki and wine.</p>
                                         <div class="tbc-separator"></div>
                                         <span class="aci_num">08.</span>
                                     </div>
@@ -585,7 +585,7 @@
                 </div>
                 <!-- section end  -->							
                 <!-- section   -->
-                <div class="content-section">
+                <div class="content-section" id="more-contact">
                     <div class="section-dec"></div>
                     <div class="content-dec2 fs-wrapper"></div>
                     <div class="container">

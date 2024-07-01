@@ -35,15 +35,11 @@
                     <div class="nav-holder main-menu">
                         <nav>
                             <ul>
-                                <li>
-                                    <a href="index.php" class="act-link">Home </a>
-                                </li>
-                                <li><a href="index.php#about-us" data-id="about">About</a></li>
-                                <li>
-                                    <a href="index.php#rooms" data-id="rooms_title">Rooms</a>
-                                </li>
-                                <li><a href="restaurant.php" data-id="restaurant">Restaurant</a></li>
-                                <li><a href="index.php#contact" data-id="contact">Contact</a></li>
+                                <li><a href="index.php" class="act-link" data-id="home" data-group="header">Home </a></li>
+                                <li><a href="index.php#about-us" data-id="about" data-group="header">About</a></li>
+                                <li><a href="index.php#rooms" data-id="rooms_title" data-group="header">Rooms</a></li>
+                                <li><a href="restaurant.php" data-id="restaurant" data-group="header">Restaurant</a></li>
+                                <li><a href="index.php#contact" data-id="contact" data-group="header">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
