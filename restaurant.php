@@ -238,6 +238,17 @@
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
+                            <!--hero-menu_item-->
+                            <div class="hero-menu-item">
+                                <a href="images/menu/coffee.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/coffee.jpg" alt=""></a>
+                                <div class="hero-menu-item-title">
+                                    <h6 data-id="coffee">Esspreso</h6>
+                                </div>
+                                <div class="hero-menu-item-details">
+                                    <p data-id="coffee_desc">Our bar offers esspreso coffee, cappuchino and so on, for you to enjoy!</p>
+                                </div>
+                            </div>
+                            <!--hero-menu_item end-->
                             
                         </div>
                         <!--tab end-->
@@ -323,6 +334,17 @@
                                 </div>
                                 <div class="hero-menu-item-details">
                                     <p data-id="traditional_desserts_desc">Our Hotel serves homemade traditional desserts like revani, bakllava and so on. Taste the tradition!</p>
+                                </div>
+                            </div>
+                            <!--hero-menu_item end-->
+                             <!--hero-menu_item-->
+                             <div class="hero-menu-item">
+                                <a href="images/menu/cheesecake.jpg" class="hero-menu-item-img image-popup"><img src="images/menu/cheesecake.jpg" alt=""></a>
+                                <div class="hero-menu-item-title">
+                                    <h6 data-id="cheesecake">Cheesecake</h6>
+                                </div>
+                                <div class="hero-menu-item-details">
+                                    <p data-id="cheesecake_desc">Our Hotel offers also several options of cheesecakes. From a cheesecake with our homemade blueberry jams, to our chocolate cheesecake. Enjoy!</p>
                                 </div>
                             </div>
                             <!--hero-menu_item end-->
