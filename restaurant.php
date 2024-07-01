@@ -113,7 +113,7 @@
                     <!-- fw-aminit-wrap   -->
                     <div class="fw-aminit-wrap">
                         <!-- fw-aminit-item  -->
-                       <div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+                       <div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="included_packet">Included in the Packet</h5>
         <h3 data-id="breakfast">Breakfast</h3>
@@ -122,12 +122,12 @@
     </div>
     <div class="aminit-work-time">
         <span data-id="breakfast_days">Monday - Sunday</span>
-        <strong data-id="breakfast_time">06:00 am - 22:30 pm</strong>
+        <strong data-id="breakfast_time">08:00 am - 10:00 am</strong>
     </div>
 </div>
 <!-- fw-aminit-item -->
 <!-- fw-aminit-item -->
-<div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+<div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="lunch_dinner">Lunch and Dinner</h5>
         <h3 data-id="the_restaurant">The Restaurant</h3>
@@ -136,12 +136,12 @@
     </div>
     <div class="aminit-work-time">
         <span data-id="restaurant_days">Monday - Sunday</span>
-        <strong data-id="restaurant_time">06:00 am - 22:30 pm</strong>
+        <strong data-id="restaurant_time">12:00 am - 21:00 pm</strong>
     </div>
 </div>
 <!-- fw-aminit-item -->
 <!-- fw-aminit-item -->
-<div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+<div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="drink">Have a Drink!</h5>
         <h3 data-id="bar">Bar</h3>
@@ -150,7 +150,7 @@
     </div>
     <div class="aminit-work-time">
         <span data-id="bar_days">Monday - Sunday</span>
-        <strong data-id="bar_time">17:00 - 23:00</strong>
+        <strong data-id="bar_time">07:00 am - 00:00 am</strong>
     </div>
 </div>
 <!-- fw-aminit-item -->

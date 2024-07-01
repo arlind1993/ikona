@@ -99,7 +99,7 @@
                                                             <div class="meg_aminites_item"><i class="fa-light fa-croissant"></i><span data-id="free_breakfast">Free Breakfast</span></div>
                                                         </div>
                                                         <div class="col-lg-4">
-                                                            <div class="meg_aminites_item"><i class="fa-light fa-dryer"></i><span data-id="washing_machine">Washing Machine</span></div>
+                                                            <div class="meg_aminites_item"><i class="fa-light fa-dryer"></i><span data-id="washing_machine">Washing Machine (08:00-16:00 with fee)</span></div>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <div class="meg_aminites_item"><i class="fa-light fa-wifi"></i><span data-id="free_wifi">Free  Wi Fi</span></div>
@@ -119,7 +119,7 @@
                                                         <div class="text-block_list">
                                                             <ul>
                                                                 <li data-id="bathroom_shower">Bathroom with rain shower</li>
-                                                                <li data-id="private_balcony">Private balcony</li>
+                                                                <li data-id="private_balcony">Common balcony</li>
                                                                 <li data-id="terrace_bar">Terrace and Bar</li>
                                                                 <li data-id="tv_screen">TV-UHD screen for watching</li>
                                                                 <li data-id="writing_desk">Writing desk</li>

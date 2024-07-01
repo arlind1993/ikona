@@ -36,7 +36,7 @@ if(trim($name) == '') {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
  
-$address = "arlindi1993shkodra@gmail.com";
+$address = "hotelikona@gmail.com";
 
 
 // Configuration option.
