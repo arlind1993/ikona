@@ -1,11 +1,11 @@
 $(window).ready(function() {
-
+    $(".map-container").html(
+        '<iframe class="map-iframe" style="border:0"  frameborder="0" allowfullscreen src="https://www.google.com/maps?q=42.067598,19.517125&hl=es;z=18&output=embed"/>'
+    )
     const languageJson = {}; 
 
-    console.log("sasasas");
     function loadLanguage(lang) {
         
-        console.log(lang);
         new Promise((resolve, reject)=> {
             if(!(lang in languageJson)){
                 $.getJSON("languages/"+ lang + '.json', function(data) {
@@ -18,8 +18,7 @@ $(window).ready(function() {
             
         }).then((e)=>{
             const data = languageJson[lang];
-            console.log(data);
-            for(key in data){
+            for(const key in data){
                 const value = data[key];
                 let deb = false;
                 if(key == "bar_n_restaurant"){
@@ -27,8 +26,6 @@ $(window).ready(function() {
                 }
 
                 $('[data-id="'+key+'"]').each(function (){
-                    
-                if(deb) console.log('HHHHHHH');
                     const messageParsed = parseMessage(data, value, $(this).data(), deb);
                     $(this).html(messageParsed);
                 });
@@ -145,51 +142,60 @@ $(window).ready(function() {
         $('#'+lang+'_title').addClass('act-lang');
     };
 
-    
-    function updateURIs(dataId) {
-        switch(lastSeenId) {
-            case 'home':
-                $('#home-link').attr('href', '#home-new');
-                break;
-            case 'about':
-                $('#about-link').attr('href', '#about-new');
-                break;
-            case 'contact':
-                $('#contact-link').attr('href', '#contact-new');
-                break;
-            default:
-                console.log('Unknown section id');
-        }
+    const idToHeader = {
+        "#heading": "[data-id=home]",
+        "#about-us": "[data-id=about]",
+        "#services": "[data-id=about]",
+        "#more-about": "[data-id=about]",
+        "#room-single": "[data-id=rooms_title]",
+        "#rooms": "[data-id=rooms_title]",
+        "#ambients": "[data-id=rooms_title]",
+        "#testimonials": "[data-id=home]",
+        "#contact": "[data-id=contact]",
+        "#more-contact": "[data-id=contact]",
+        "[data-group-id=restaurant]": "[data-id=restaurant]",
+    }
+    const keys = Object.keys(idToHeader);
+    const length = keys.length;
+
+    let combination = "";
+    let pos = 0;
+    for(const key of keys){
+        combination += key;
+        idToHeader[key] = [idToHeader[key], 0];
+        if(pos != length - 1) combination+=", ";
+        pos++; 
     }
 
-    // Detect the last seen section and update URIs accordingly
-    $(window).on('scroll', function() {
+    let currVisible = null;
+    const doms = $(combination);
 
-        const idToHeader = {
-            "#heading": "[date-id=home]",
-            "#about-us": "[date-id=about]",
-            "#services": "[date-id=about]",
-            "#more-about": "[date-id=about]",
-            "#room-single": "[date-id=rooms_title]",
-            "#rooms": "[date-id=rooms_title]",
-            "#ambients": "[date-id=rooms_title]",
-            "#testimonials": "[date-id=home]",
-            "#contact": "[date-id=contact]",
-            "#more-contact": "[date-id=contact]",
-            "[data-group-id=restaurant]": "[date-id=contact]",
-        }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const dgi = $(entry.target).attr("data-group-id");
+
+            const entryKey = dgi ? "[data-group-id="+dgi+"]" : "#" + entry.target.id;
+            idToHeader[entryKey][1] = entry.intersectionRatio;
+        });
+
         
-        for(let key in idToHeader){
-            const value = idToHeader[key];
-            $(key).each(function() {
-                if ($(this).is(':visible')) {
-                    console.log("visible",$(this).attr('id'));
-                    $('.act-link').removeClass('act-link');
-                    $(value).addClass('act-link');
-                }
+        const mostVisibleSection = keys.reduce((a, b) => idToHeader[a][1] > idToHeader[b][1] ? a : b);
+
+        if (currVisible !== mostVisibleSection && idToHeader[mostVisibleSection][1] > 0) {
+            currVisible = mostVisibleSection;
+            $(currVisible).each(function() {
+                $('.act-link').removeClass('act-link');
+                $(idToHeader[currVisible][0]).addClass('act-link');
             });
         }
-    });
+    }, { threshold: [0, 0.25, 0.5, 0.75, 1] });
+
+
+
+    doms.each(function() {
+        observer.observe(this);
+    })
+    
 
     var savedLang = Cookies.get('language');
     changeLanguage(savedLang ?? 'en');

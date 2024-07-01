@@ -1,6 +1,4 @@
 <?php
-    $deb = "AIzaSyDtg0MNeH1GYaiooHcUNNQac3Nyewma9bw";//null;
-    $mapApi = $deb ?? "AIzaSyCubqC3XFVAVPewPQPtUDmPXGETWLebz0";
     $phoneNumber = "+355 68 454 4403";
     $address = "Rruga Gjuhadol, Shkodër, Albania";
     $mapRedirect = "https://maps.app.goo.gl/7ZzwRrYkHZ9WDQQS7";
@@ -40,9 +38,9 @@
             <script src="js/cookie.js"></script>
             <script src="js/scripts.js"></script>
             <script src="js/language.js"></script>
-            '.($hasMaps ? ('
-                <script src="https://maps.google.com/maps/api/js?key='.$mapApi.'"></script>
-                <script src="js/map.js"></script>
+            '.($hasMaps ? (
+                // '<script src="https://maps.google.com/maps/api/js?key='.$mapApi.'"></script>'+
+                '<script src="js/map.js"></script>
             ') : ''
             ).($hasCs? ('<script src="js/cs-scripts.js"></script>') : '').'
         ';

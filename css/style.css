@@ -3275,10 +3275,18 @@ quantity , .quantity_title {
 	color:#666;
 }
 .map-container{
+	
 	height:544px;
 	position:relative;
 	overflow:hidden;
 	border-radius: 10px;
+}
+
+.map-container iframe {
+	width: 100%; /* Make the iframe fill its container */
+	height: 544px; /* Fixed height example */
+	border: 0; /* Remove iframe border */
+	outline: none; /* Remove outline when focused */
 }
 .mapzoom-in  , .mapzoom-out , .scrollContorl{
 	position: absolute;
