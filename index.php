@@ -19,10 +19,10 @@
                                     <div class="overlay overlay-bold"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
-                                            <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2 id="welcome_message">Welcome to Ikona Hotel</h2>
+                                            <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                                            <h2 data-id="welcome_message">Welcome to Ikona Hotel</h2>
                                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                            <a href="#about-us" class="stg_link custom-scroll-link" id="start_explore_link">Start Explore</a>
+                                            <a href="#about-us" class="stg_link custom-scroll-link" data-id="start_explore_link">Start Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -35,10 +35,10 @@
                                     <div class="overlay"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
-                                            <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2 id="your_getaway">Your perfect getaway awaits</h2>
+                                            <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                                            <h2 data-id="your_getaway">Your perfect getaway awaits</h2>
                                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                            <a href="#rooms" id="view_our_rooms" class="stg_link custom-scroll-link">View Our Rooms</a>
+                                            <a href="#rooms" data-id="view_our_rooms" class="stg_link custom-scroll-link">View Our Rooms</a>
                                         </div>
                                     </div>
                                 </div>
@@ -51,10 +51,10 @@
                                     <div class="overlay"></div>
                                     <div class="hero-title-container">
                                         <div class="section-title">
-                                            <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                                            <h2 id="experience_shkodra">Experience Shkodran’s culture</h2>
+                                            <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                                            <h2 data-id="experience_shkodra">Experience Shkodran's culture</h2>
                                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
-                                            <a href="restaurant.php" id="view_room_details" class="stg_link custom-scroll-link">View Our Dishes</a>
+                                            <a href="restaurant.php" data-id="view_room_details" class="stg_link custom-scroll-link">View Our Dishes</a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@
                 <!-- breadcrumbs-wrap  -->
                 <div class="breadcrumbs-wrap">
                     <div class="container">
-                        <a href="#" id="home">Home</a> 
+                        <a href="#" data-id="home">Home</a> 
                     </div>
                 </div>
                 <!--breadcrumbs-wrap end  -->
@@ -111,11 +111,11 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="section-title text-align_left" style="margin-top: 50px;">
-                                        <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel</h4>
-                                        <h2 id="about_our_hotel_title">About Our Hotel</h2>
+                                        <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel</h4>
+                                        <h2 data-id="about_our_hotel_title">About Our Hotel</h2>
                                     </div>
                                     <div class="text-block tb-sin">
-                                        <p class="has-drop-cap" id="about_us_description">Welcome to Ikona Hotel, a charming family-run business dedicated to offering 
+                                        <p class="has-drop-cap" data-id="about_us_description">Welcome to Ikona Hotel, a charming family-run business dedicated to offering 
                                             a delightful stay for all those who wish to explore the beautiful city of Shkodra.
                                             Our mission is to provide exceptional service, ensuring that each guest experiences
                                             the rich culture and warm hospitality of Shkodra. 
@@ -132,7 +132,7 @@
                                             Our commitment to cleanliness and hospitality is unwavering. We strive to be the best in these areas, ensuring that every corner of our hotel is spotless and every guest feels warmly welcomed.
                                             Come and experience the unique charm of Shkodra at Ikon Hotel. We look forward to making your stay unforgettable.
                                             </p>
-                                        <a href="#services" class="btn fl-btn custom-scroll-link" id="view_our_services">View Our Services</a>
+                                        <a href="#services" class="btn fl-btn custom-scroll-link" data-id="view_our_services">View Our Services</a>
                                         <div class="dc_dec-item_left"><span></span></div>
                                     </div>
                                 </div>
@@ -155,11 +155,11 @@
                     <!-- section end  -->
                                 
                 <!-- section   -->
-                <div class="content-section" id="services">
+                <div class="content-section" data-id="services">
                     <div class="container">
                         <div class="section-title">
-                            <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                            <h2 id="hotel_extra_services">Hotels Extra Services</h2>
+                            <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                            <h2 data-id="hotel_extra_services">Hotels Extra Services</h2>
                             <div class="section-separator "><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                         <div class="cards-wrap">
@@ -174,8 +174,8 @@
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2 id="bar_n_restaurant">Bar and Restaurant</h2>
-                                                    <h4 id="eat_local_produce">Eat Local Produce</h4>
+                                                    <h2 data-id="bar_n_restaurant">Bar and Restaurant</h2>
+                                                    <h4 data-id="eat_local_produce">Eat Local Produce</h4>
                                                     <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">01.</div>
@@ -187,7 +187,7 @@
                                                     <div class="dec-icon">
                                                     <i class="fa-thin fa-utensils" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p id="bar_n_restaurant_description">Enjoy the local produce, and bio products that our hotel offers. From the included breakfast with traditional Albanian and Mediterranean infused cuisines to our cocktails.</p>
+                                                    <p data-id="bar_n_restaurant_description">Enjoy the local produce, and bio products that our hotel offers. From the included breakfast with traditional Albanian and Mediterranean infused cuisines to our cocktails.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,8 +204,8 @@
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2 id="terrace">Terrace</h2>
-                                                    <h4 id="terrace_message">Enjoy your evenings in fresh air!</h4>
+                                                    <h2 data-id="terrace">Terrace</h2>
+                                                    <h4 data-id="terrace_message">Enjoy your evenings in fresh air!</h4>
                                                     <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">02.</div>
@@ -217,7 +217,7 @@
                                                     <div class="dec-icon">
                                                     <i class="fa-solid fa-chair" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p id="terrace_description">Enjoy your morning coffee or your evening beverage in the delightful view and breeze of our terrace.</p>
+                                                    <p data-id="terrace_description">Enjoy your morning coffee or your evening beverage in the delightful view and breeze of our terrace.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,8 +234,8 @@
                                                     <div class="overlay overlay-bold"></div>
                                                 </div>
                                                 <div class="inner">
-                                                    <h2 id="garden">Garden</h2>
-                                                    <h4 id="garden_message">Relax with your companions!</h4>
+                                                    <h2 data-id="garden">Garden</h2>
+                                                    <h4 data-id="garden_message">Relax with your companions!</h4>
                                                     <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                                                 </div>
                                                 <div class="serv-num">03.</div>
@@ -247,7 +247,7 @@
                                                     <div class="dec-icon">
                                                     <i class="fa-solid fa-leaf" style="color: #E2CBAD;"></i>
                                                     </div>
-                                                    <p id="garden_description">Experience the traditional Shkodran’s garden filled with flowers. The perfect place to relax and enjoy the ambient. </p>
+                                                    <p data-id="garden_description">Experience the traditional Shkodran’s garden filled with flowers. The perfect place to relax and enjoy the ambient. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -258,7 +258,7 @@
                             <div class="dc_dec-item_left"><span></span></div>
                             <div class="dc_dec-item_right"><span></span></div>
                         </div>
-                        <a href="#contact" class="dwonload_btn" id="get_in_touch_link">Get In touch With Us</a>
+                        <a href="#contact" class="dwonload_btn" data-id="get_in_touch_link">Get In touch With Us</a>
                         <div class="sc-dec" style="left: -220px; bottom: -100px;"></div>
                         <div class="sc-dec2" style="right: -220px; top: -100px;"></div>
                     </div>
@@ -276,8 +276,8 @@
                         <div class="wide_section-title">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h5 id="amnities">Other aminites and services</h5>
-                                    <h3 id="amnities_message">ENJOY COMPLETE & BEST QUALITY Cooperation</h3>
+                                    <h5 data-id="amnities">Other aminites and services</h5>
+                                    <h3 data-id="amnities_message">ENJOY COMPLETE & BEST QUALITY Cooperation</h3>
                                 </div>
                                 
                             </div>
@@ -287,10 +287,10 @@
                             <div class="boxed-container-title">
                                 <div class="dec-container">
                                     <div class="boxed-container-title_item">
-                                        <h4 id="more_about_us">More about us</h4>
-                                        <h2 id="more_about_us_message">Try the Shkodran experience! </h2>
+                                        <h4 data-id="more_about_us">More about us</h4>
+                                        <h2 data-id="more_about_us_message">Try the Shkodran experience! </h2>
 
-                                        <p class="has-drop-cap" id="more_about_us_content">At Ikona Hotel, we believe that the details make the difference. Our rooms are thoughtfully designed with a modern rustic aesthetic, creating a unique blend of contemporary comfort and natural charm. This design choice not only distinguishes us from other hotels but also provides our guests with a cozy and inviting environment that feels like a home away from home.
+                                        <p class="has-drop-cap" data-id="more_about_us_content">At Ikona Hotel, we believe that the details make the difference. Our rooms are thoughtfully designed with a modern rustic aesthetic, creating a unique blend of contemporary comfort and natural charm. This design choice not only distinguishes us from other hotels but also provides our guests with a cozy and inviting environment that feels like a home away from home.
                                         <br> We understand that a comfortable stay goes beyond just aesthetics. That's why we've incorporated soft ambient lighting throughout our hotel, carefully chosen to enhance relaxation and create a soothing atmosphere. Whether you're here to unwind after a day of sightseeing or to catch up on work, our lighting ensures the perfect ambiance for any activity.
                                             <br>Our dedication to hospitality is reflected in our 24/7 service. No matter the time of day or night, our friendly and professional staff is always on hand to assist with any requests or needs you may have. From providing local recommendations to ensuring your room is immaculate, we go above and beyond to make your stay as pleasant and hassle-free as possible.
                                             <br>As advocates of Shkodra's rich cultural heritage, we encourage our guests to immerse themselves in the local way of life. We offer various experiences and recommendations to help you connect with the city's history, traditions, and vibrant community. Whether it's exploring the historic sites, enjoying the local cuisine, or participating in cultural events, we strive to make your visit to Shkodra truly memorable.
@@ -478,8 +478,8 @@
                 <div class="content-section" id="testimonials">
                     <div class="container  ">
                         <div class="section-title">
-                        <h4 id="testimonials_subtitle">What said about us</h4>
-                        <h2 id="testimonials_title">Testimonials & Clients</h2>
+                        <h4 data-id="testimonials_subtitle">What said about us</h4>
+                        <h2 data-id="testimonials_title">Testimonials & Clients</h2>
                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                         <div class="sc-dec3" style="left: 40%; bottom: -200px;"></div>
@@ -498,7 +498,7 @@
                                                 <div class="testimonilas-text-item">
                                                     <h3 >Danijela</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p id="test_danijela">"Very friendly staff. Enjoyed the breakfast. Very central. Stayed longer than intended due to crashing my bicycle... everyone was very helpful."</p>
+                                                    <p data-id="test_danijela">"Very friendly staff. Enjoyed the breakfast. Very central. Stayed longer than intended due to crashing my bicycle... everyone was very helpful."</p>
                                                     <a href="<?php echo $bookingRedirect?>" class="testi-link" target="_blank">Via Booking.com</a>
                                                 </div>
                                                 <span class="testi-number">01.</span>
@@ -515,7 +515,7 @@
                                                 <div class="testimonilas-text-item">
                                                     <h3>Sultan</h3>
                                                     <div class="star-rating" data-starrating="4"> </div>
-                                                    <p id="test_sultan">"Frankly a nice place close to the market place I recommend it for accommodation because it is close to everything that does not need a car and the staff are nice and understanding everyone tries to help you anywhere just ask the answer for all"</p>
+                                                    <p data-id="test_sultan">"Frankly a nice place close to the market place I recommend it for accommodation because it is close to everything that does not need a car and the staff are nice and understanding everyone tries to help you anywhere just ask the answer for all"</p>
                                                     <a href="<?php echo $bookingRedirect?>" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">02.</span>
@@ -532,7 +532,7 @@
                                                 <div class="testimonilas-text-item">
                                                     <h3>Oswald</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p id="test_oswald">"Inovative and welcoming structure. The location was close to the center with internal parking. The value for money."</p>
+                                                    <p data-id="test_oswald">"Inovative and welcoming structure. The location was close to the center with internal parking. The value for money."</p>
                                                     <a href="<?php echo $bookingRedirect?>" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">03.</span>
@@ -549,7 +549,7 @@
                                                 <div class="testimonilas-text-item">
                                                     <h3>Armando</h3>
                                                     <div class="star-rating" data-starrating="5"> </div>
-                                                    <p id="test_armando">"Central location. Breakfast was excellent. Very friendly staff. Very new facilities. "</p>
+                                                    <p data-id="test_armando">"Central location. Breakfast was excellent. Very friendly staff. Very new facilities. "</p>
                                                     <a href="<?php echo $bookingRedirect?>" class="testi-link" target="_blank">Via Booking.com</a>													
                                                 </div>
                                                 <span class="testi-number">04.</span>
@@ -573,8 +573,8 @@
                     <div class="overlay overlay-bold"></div>
                     <div class="container">
                         <div class="section-title">
-                        <h4 id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
-                        <h2 id="contact_title">Our Contacts</h2>
+                        <h4 data-id="enjoy_pleasure_subtitle">Enjoy your time in our Hotel with pleasure.</h4>
+                        <h2 data-id="contact_title">Our Contacts</h2>
                             <div class="section-separator"><span><img src="images/logo6.png" style="width:30px; height:30px;" alt=""></span></div>
                         </div>
                     </div>
@@ -598,9 +598,9 @@
                                         <div class="col-lg-4">
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-location-dot"></i>
-                                                <span id="location_title">Our Location</span>
-                                                <p id="location_desc">Nestled in the heart of Shkodra, our hotel is situated in one of the city's oldest neighborhoods. Enjoy easy access to the vibrant center, where you can immerse yourself in music, culture, and the lively spirit of this charming town. Accessible by any vehicle, our location ensures convenience and a memorable stay.</p>
-                                                <a href="#">3G98+2RQ, Rruga G'juhadol, Shkodër, Albania</a>
+                                                <span data-id="location_title">Our Location</span>
+                                                <p data-id="location_desc">Nestled in the heart of Shkodra, our hotel is situated in one of the city's oldest neighborhoods. Enjoy easy access to the vibrant center, where you can immerse yourself in music, culture, and the lively spirit of this charming town. Accessible by any vehicle, our location ensures convenience and a memorable stay.</p>
+                                                <a target="_blank" href="<?php echo $mapRedirect?>"><?php echo $address?></a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->	
@@ -608,9 +608,9 @@
                                         <div class="col-lg-4">
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-phone-rotary"></i>
-                                                <span id="phone_title">Our Phone</span>
-                                                <p id="phone_desc">Feel free to call us anytime at the number provided; our round-the-clock service ensures that you receive prompt assistance for all your reservation or request needs, ensuring your convenience and satisfaction throughout your stay.<br><br><br></p>
-                                                <a href="#"> +355 68 454 4403</a>
+                                                <span data-id="phone_title">Our Phone</span>
+                                                <p data-id="phone_desc">Feel free to call us anytime at the number provided; our round-the-clock service ensures that you receive prompt assistance for all your reservation or request needs, ensuring your convenience and satisfaction throughout your stay.<br><br><br></p>
+                                                <a href="<?php echo "tel:".$phoneNumber ?>"href="#"><?php echo $phoneNumber?></a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->
@@ -618,9 +618,9 @@
                                         <div class="col-lg-4">
                                             <div class="contacts-card-item">
                                                 <i class="fa-light fa-mailbox"></i>
-                                                <span id="mail_title">Our Mail</span>
-                                                <p id="mail_desc">Feel free to reach out to us via email with any questions you may have. Whether you need to make a request, cancellation, or reservation, we are here to assist you promptly. Our commitment is to respond within 24 hours to ensure your queries are addressed swiftly.<br><br></p>
-                                                <a href="#">hotelikona@gmail.com</a>
+                                                <span data-id="mail_title">Our Mail</span>
+                                                <p data-id="mail_desc">Feel free to reach out to us via email with any questions you may have. Whether you need to make a request, cancellation, or reservation, we are here to assist you promptly. Our commitment is to respond within 24 hours to ensure your queries are addressed swiftly.<br><br></p>
+                                                <a href="<?php echo "mailto:".$email?>"><?php echo $email?></a>
                                             </div>
                                         </div>
                                         <!-- contacts-card-item end-->
@@ -634,7 +634,7 @@
                                 <div class="dec-container">
                                     <div class="text-block">
                                         <div class="text-block ">
-                                            <div class="tbc_subtitle" id="get_in_touch_link">Get In Touch</div>
+                                            <div class="tbc_subtitle" data-id="get_in_touch_link">Get In Touch</div>
                                             <div class="tbc-separator"></div>
                                             <div class="contactform-wrap">
                                                 <form  class="comment-form" action="contact-info.php" name="contactform" id="contactform">
@@ -642,15 +642,15 @@
                                                         <div id="message"></div>
                                                         <div class="row">
                                                             <div class="col-sm-6">
-                                                                <input type="text" name="name" id="name" placeholder="Your Name *" value="">
+                                                                <input type="text" name="name" data-placeholder="name-placeholder" placeholder="Your Name *" value="">
                                                             </div>
                                                             <div class="col-sm-6">
-                                                                <input type="text"  name="email" id="email" placeholder="Email Address *" value="">
+                                                                <input type="text"  name="email" data-placeholder="email-placeholder" placeholder="Email Address *" value="">
                                                             </div>
                                                         </div>
-                                                        <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                                                        <textarea name="comments"  data-placeholder="comments-placeholder" cols="40" rows="3" placeholder="Your Message:"></textarea>
                                                         <div class="clearfix"></div>
-                                                        <button class="commentssubmit" id="submit_cnt">Send Message  </button>
+                                                        <button class="commentssubmit" data-id="submit_cnt">Send Message  </button>
                                                     </fieldset>
                                                 </form>
                                             </div>

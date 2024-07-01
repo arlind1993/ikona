@@ -408,8 +408,8 @@ blockquote p {
 }
 .header-top_contacts:before , .header-top_contacts:after , .lang-wrap:before {
 	content: '';
-	position: absolute;
-	top: 30px;
+	position: fixed;
+	/* position: absolute; */
 	left: 0;
 	width: 1px;
 	bottom: 30px;

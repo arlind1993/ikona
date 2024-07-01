@@ -12,7 +12,7 @@
             </div>
         </div>
         <!--  main   -->
-        <div id="main">
+        <div data-id="main">
             <!-- cs-content-container -->
             <div class="cs-content-container">
                 <a href="index.php" class="cs-logo"><img src="images/logo3.png" alt=""></a>
@@ -23,9 +23,9 @@
                         <p>Sign up now to our newsletter and you will be one of the first know
                             when our   new website as ready
                         </p>
-                        <form id="subscribe" class="fl-wrap">
-                            <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
-                            <button type="submit" id="subscribe-button" class="subscribe-button color-bg">Send </button>
+                        <form data-id="subscribe" class="fl-wrap">
+                            <input class="enteremail" name="email" data-id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
+                            <button type="submit" data-id="subscribe-button" class="subscribe-button color-bg">Send </button>
                             <label for="subscribe-email" class="subscribe-message"></label>
                         </form>
                     </div>

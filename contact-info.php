@@ -9,9 +9,9 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$name     = $_POST['name'];
-$email    = $_POST['email'];
-$comments = $_POST['comments'];
+$name     	= $_POST['name'];
+$email    	= $_POST['email'];
+$comments 	= $_POST['comments'];
 
 
 if(trim($name) == '') {
@@ -36,7 +36,7 @@ if(trim($name) == '') {
 // Enter the email address that you want to emails to be sent to.
 // Example $address = "joe.doe@yourdomain.com";
  
-$address = "hotelikona@gmail.com";
+$address = "arlindi1993shkodra@gmail.com";
 
 
 // Configuration option.
@@ -52,7 +52,7 @@ $e_subject = 'You\'ve been contacted by ' . $name . '.';
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
 $e_body = "You have been contacted by: $name" . PHP_EOL . PHP_EOL;
-$e_reply = "E-mail: $email\r\nPhone: $phone";
+$e_reply = "E-mail: $email";
 $e_content = "Message:\r\n$comments" . PHP_EOL . PHP_EOL;
 
 

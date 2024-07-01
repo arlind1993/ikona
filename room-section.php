@@ -11,7 +11,7 @@ $genereateRoom = function (string $roomId): string{
                 <img src="'.getImage($roomObject).'" data-alt="image-alt-'.getImage($roomObject).'" alt="">
             </div>
             <div class="grid-item-details">
-                <h3><a href="room-single3.php?room='.$roomId.'" data-id="name-'.$roomId.'">'.getName($roomObject).'</a>  </h3>
+                <h3><a href="room-details.php?room='.$roomId.'" data-id="name-'.$roomId.'">'.getName($roomObject).'</a>  </h3>
                 <p data-id="mini-description-'.$roomId.'" data-id="mini-description-'.$roomId.'">'.getMiniDescription($roomObject).'</p>
                 <div class="room-card-details">
                     <ul>
@@ -21,7 +21,7 @@ $genereateRoom = function (string $roomId): string{
                 <div class="grid-item_price">
                     <span data-value="'.$roomObject["price"].'" data-id="price-title">'.getPrice($roomObject).'</span>
                 </div>
-                <a href="room-single3.php?room='.$roomId.'" class="gid_link room-link" id="view_details" data-id="'.$roomId.'"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
+                <a href="room-details.php?room='.$roomId.'" class="gid_link room-link" id="view_details" data-id="'.$roomId.'"><span>View Details</span> <i class="fa-light fa-arrow-right-long"></i></a>
             </div>
         </div>
         ';
