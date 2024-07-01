@@ -113,7 +113,7 @@
                     <!-- fw-aminit-wrap   -->
                     <div class="fw-aminit-wrap">
                         <!-- fw-aminit-item  -->
-                       <div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+                       <div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="included_packet">Included in the Packet</h5>
         <h3 data-id="breakfast">Breakfast</h3>
@@ -127,7 +127,7 @@
 </div>
 <!-- fw-aminit-item -->
 <!-- fw-aminit-item -->
-<div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+<div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="lunch_dinner">Lunch and Dinner</h5>
         <h3 data-id="the_restaurant">The Restaurant</h3>
@@ -141,7 +141,7 @@
 </div>
 <!-- fw-aminit-item -->
 <!-- fw-aminit-item -->
-<div class="fw-aminit-item full-height" data-bgtab="images/bg/1.jpg">
+<div class="fw-aminit-item full-height">
     <div class="fw-aminit-item-container">
         <h5 data-id="drink">Have a Drink!</h5>
         <h3 data-id="bar">Bar</h3>

@@ -36,7 +36,7 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a href="index.php" class="act-link">Home </a>>
+                                    <a href="index.php" class="act-link">Home </a>
                                 </li>
                                 <li><a href="index.php#about-us" data-id="about">About</a></li>
                                 <li>

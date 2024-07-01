@@ -15,15 +15,10 @@ $(window).ready(function() {
             
         }).then((e)=>{
             const data = languageJson[lang];
-            console.log("languageLoaded", data);
             for(key in data){
                 const value = data[key];
                 let deb = true;
                 $('[data-id="'+key+'"]').each(function (){
-                    if(deb){
-                        console.log("languageLoaded2", value);
-                    }
-                        
                     
                     const messageParsed = parseMessage(data, value, $(this).data(), deb);
                     $(this).html(messageParsed);
@@ -55,15 +50,9 @@ $(window).ready(function() {
     function parseMessage(languageData, value, domData = {}, debug = false){
         const dataAttributes = {};
 
-         if(debug) console.log('hiiiiiiiii', value);
-
         for(key in domData){
             dataAttributes["data-"+key] = domData[key];
         }
-
-        // console.log('HAAAAw');
-
-        // if(debug) console.log('SSS', value);
 
         if(!value.includes("${")){
             return value;
@@ -142,7 +131,6 @@ $(window).ready(function() {
     }
     window.changeLanguage = function(lang) {
         Cookies.set('language', lang, { expires: 31 });
-        console.log("LANGUAGE_SET:", lang);
         loadLanguage(lang);
         $('.act-lang').removeClass('act-lang');
         $('#'+lang+'_title').addClass('act-lang');

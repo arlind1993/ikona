@@ -268,7 +268,7 @@
                 <!-- section end  -->	
                 <!-- section   -->
                 <div class="content-section dark-bg hidden-section  wide-section" data-scrollax-parent="true">
-                    <div class="bg"  data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                    <div class="bg" data-scrollax="properties: { translateY: '30%' }"></div>
                     <div class="overlay overlay-bold"></div>
                     <div class="dec-corner dc_rt"></div>
                     <div class="dec-corner dc_lt"></div>
@@ -306,7 +306,7 @@
                                 <div class="overlay"></div>
                                 <div class="promo-video">
                                     <div class="video-box-btn image-popup color-bg"  id="html5-videos" data-html="#video1"><i class="fas fa-play"></i></div>
-                                    <h4 id="video_about">360 Room Tour</h4>
+                                    <h4 data-id="video_about">360° Room Tour</h4>
                                 </div>
                             </div>
                             <div style="display:none;" id="video1" class="popup_video" data-videolink="video/video.mp4">
@@ -569,7 +569,7 @@
                 <!-- section end  -->				
                 <!--  section  -->
                 <div class="content-section  parallax-section hidden-section dark-bg" data-scrollax-parent="true" id="contact">
-                    <div class="bg par-elem " data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '20%' }"></div>
+                    <div class="bg par-elem " data-scrollax="properties: { translateY: '20%' }"></div>
                     <div class="overlay overlay-bold"></div>
                     <div class="container">
                         <div class="section-title">
